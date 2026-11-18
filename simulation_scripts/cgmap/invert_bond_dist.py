@@ -29,9 +29,6 @@ def invert_bond(btype,
     if btype == "bond":
         bond_data = np.loadtxt("../bond.dist.new", usecols=(0,1))
         filename = "MM_bond.dat"
-    elif btype == "AA":
-        bond_data = np.loadtxt("AA.dist.new", usecols=(0,1))
-        filename = "AA_bond.dat"
     else:
         raise ValueError("Unknown btype")
 
@@ -111,60 +108,11 @@ def invert_bond(btype,
                fmt='%.8f', header='Bond Distance (nm)    Potential (kJ/mol)')
 
 
-'''
-def invert_angle(a_type):
-    if a_type == "ABA":
-        angle_data = np.loadtxt("../ABA.dist.new", usecols=(0,1))
-        file_name = "ABA_angle.dat"
-    else:
-        angle_data = np.loadtxt("../BAB.dist.new", usecols=(0,1))
-        file_name = "BAB_angle.dat"
-    theta = angle_data[:, 0]          # in radians
-    g_theta = angle_data[:, 1]
-
-    g_theta[g_theta <= 0] = np.min(g_theta[g_theta > 0]) * 1e-6
-    g_theta_smooth = running_average(g_theta, window_size=20) 
-    U_theta = -kBT * np.log(g_theta_smooth)
-    U_theta = np.clip(U_theta - np.min(U_theta), 0, max_U)
-    #plt.plot(theta, g_theta, label="dist coarse")
-    #plt.plot(theta, g_theta_smooth, label="dist smooth")
-    plt.plot(theta, U_theta, label="pot")
-    plt.legend()
-    plt.show()
-    np.savetxt(file_name, np.column_stack((theta, U_theta)), fmt='%.8f', header='Angle (rad)    Potential (kJ/mol)')
-
-def invert_dihedral(d_type):
-    if d_type == "ABAB":
-        dih_data = np.loadtxt("../ABAB.dist.new", usecols=(0,1))
-        file_name = "ABAB_dihedral.dat"
-    else:
-        dih_data = np.loadtxt("../BABA.dist.new", usecols=(0,1))
-        file_name = "BABA_dihedral.dat"
-    phi = dih_data[:, 0]              # in radians, assumed
-    g_phi = dih_data[:, 1]
-
-    g_phi[g_phi <= 0] = np.min(g_phi[g_phi > 0]) * 1e-6
-    g_phi_smooth = running_average(g_phi, window_size=15)
-    U_phi = -kBT * np.log(g_phi_smooth)
-    U_phi = np.clip(U_phi - np.min(U_phi), 0, max_U)
-    #plt.plot(phi, g_phi, label="coarse")
-    #plt.plot(phi, g_phi_smooth, label="smooth")
-    plt.plot(phi, U_phi, label="dihedral")
-    plt.legend()
-    plt.show()
-    np.savetxt(file_name, np.column_stack((phi, U_phi)), fmt='%.8f', header='Dihedral (rad)    Potential (kJ/mol)')
-'''
 
 def invert_angle(a_type):
     if a_type == "MMM":
         angle_data = np.loadtxt("../MMM.dist.new", usecols=(0,1))
         file_name = "MMM_angle.dat"
-    elif a_type == "AAB":
-        angle_data = np.loadtxt("AAB.dist.new", usecols=(0,1))
-        file_name = "AAB_angle.dat"
-    elif a_type == "AAA":
-        angle_data = np.loadtxt("AAA.dist.new", usecols=(0,1))
-        file_name = "AAA_angle.dat"
 
     theta = angle_data[:, 0]   # radians
     H_theta = angle_data[:, 1]
@@ -196,15 +144,6 @@ def invert_dihedral(d_type):
     if d_type == "MMMM":
         dih_data = np.loadtxt("../MMMM.dist.new", usecols=(0,1))
         file_name = "MMMM_dihedral.dat"
-    elif d_type == "BAAA":
-        dih_data = np.loadtxt("BAAA.dist.new", usecols=(0,1))
-        file_name = "BAAA_dihedral.dat"
-    elif d_type == "AAAB":
-        dih_data = np.loadtxt("AAAB.dist.new", usecols=(0,1))
-        file_name = "AAAB_dihedral.dat"
-    elif d_type == "AAAA":
-        dih_data = np.loadtxt("AAAA.dist.new", usecols=(0,1))
-        file_name = "AAAA_dihedral.dat"
     phi_rad = dih_data[:, 0]
     g_phi = dih_data[:, 1]
 
@@ -229,56 +168,6 @@ def invert_dihedral(d_type):
 
     np.savetxt(file_name, np.column_stack((uniform_phi, U_phi_uniform)),
                fmt='%.4f %.8f', header='Dihedral (deg)    Potential (kJ/mol)')
-
-def invert_nonbonded(nbtype, q1, q2, rcut):
-    epsilon_0 = 8.85 * 10**(-12)  # Electrostatic constant (N·m^2/C^2)
-    qa = 1.602e-19 * q1  # Elementary charge (C)
-    epsilon_r = 71.9  # Relative permittivity
-    NA = 6.022e23  # Avogadro's number (mol^-1)
-    qb = 1.602e-19 * q2
-    C = (qa * qb) / (4 * 3.14159 * epsilon_0 * epsilon_r * rcut * 10 ** (-9))
-    C_in_KJmol = NA * (C) / 1000
-    def coulomb(x):
-        V_r = NA * qa * qb * 10**(-3)/ (4 * np.pi * epsilon_r * epsilon_0 * x * 10**(-9))
-        return V_r
-
-    if nbtype=="M-NA":
-        data = np.loadtxt("../M-NA.dist.new",usecols=(0,1))
-        filenme="M_NA_nb.dat"
-    if nbtype=="NA-NA":
-        data = np.loadtxt("../NA-NA.dist.new",usecols=(0,1))
-        filenme="NA_NA_nb.dat"
-    if nbtype=="B-B":
-        data = np.loadtxt("B-B.dist.new",usecols=(0,1))
-        filenme="B_B_nb.dat"
-    if nbtype=="A-NA":
-        data = np.loadtxt("A-NA.dist_copy.new",usecols=(0,1))
-        filenme="A_NA_nb.dat"
-    if nbtype=="M-M":
-        data = np.loadtxt("/home/somesh/multivalent/2d-gel/PSS-protocol/bonded_potentials/inter_range_0_6/vacuum/get_dist_1site/M-M.dist.new",usecols=(0,1))
-        filenme="M_M_nb_vac.dat"
-
-    dist = data[:,0]
-    pmf = data[:,1]
-
-    pmf[pmf <= 0] = np.min(pmf[pmf >0]) * 1e-6
-
-    U_pmf = -kBT * np.log(pmf)
-    U_pmf = np.clip(U_pmf - np.min(U_pmf), 0, max_U)
-    Int_const = C_in_KJmol - U_pmf[-1]
-    U_pmf[:] = U_pmf[:] + Int_const
-
-    PMF_M = U_pmf[:] - coulomb(dist)
-    np.savetxt(filenme, np.column_stack((dist, U_pmf, PMF_M)), header='r (nm)    Potential (kJ/mol)')
-    plt.plot(dist, U_pmf, label=f"{nbtype}")
-    plt.plot(dist, PMF_M, label="modified")
-    plt.plot(dist, coulomb(dist), label="coulomb")
-    plt.xlabel("r (nm)")
-    plt.ylabel("Potential (KJ/mol)")
-    plt.legend()
-    plt.xlim([0.15, 1.3])
-    plt.ylim([-10,30])
-    plt.show()
 
 
 invert_bond("bond")
