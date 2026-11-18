@@ -1,0 +1,182 @@
+<cg_molecule>
+  <name>PAA</name>
+  <ident>PAA</ident>
+  <topology>
+    <cg_beads>
+      <!-- End monomer (start) -->
+      <cg_bead>
+        <name>M1</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO_S</mapping>
+        <beads> 1:PAA:CHS 1:PAA:CH3S 1:PAA:H1S 1:PAA:H3AS 1:PAA:H3BS 1:PAA:H3CS 1:PAA:CO2MS 1:PAA:OE1S 1:PAA:OE2S </beads>
+      </cg_bead>
+
+      <!-- Internal monomers -->
+      <cg_bead>
+        <name>M2</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 2:PAA:CH 2:PAA:CH2 2:PAA:H1 2:PAA:H2A 2:PAA:H2B 2:PAA:CO2M 2:PAA:OE1 2:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M3</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 3:PAA:CH 3:PAA:CH2 3:PAA:H1 3:PAA:H2A 3:PAA:H2B 3:PAA:CO2M 3:PAA:OE1 3:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M4</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 4:PAA:CH 4:PAA:CH2 4:PAA:H1 4:PAA:H2A 4:PAA:H2B 4:PAA:CO2M 4:PAA:OE1 4:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M5</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 5:PAA:CH 5:PAA:CH2 5:PAA:H1 5:PAA:H2A 5:PAA:H2B 5:PAA:CO2M 5:PAA:OE1 5:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M6</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 6:PAA:CH 6:PAA:CH2 6:PAA:H1 6:PAA:H2A 6:PAA:H2B 6:PAA:CO2M 6:PAA:OE1 6:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M7</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 7:PAA:CH 7:PAA:CH2 7:PAA:H1 7:PAA:H2A 7:PAA:H2B 7:PAA:CO2M 7:PAA:OE1 7:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M8</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 8:PAA:CH 8:PAA:CH2 8:PAA:H1 8:PAA:H2A 8:PAA:H2B 8:PAA:CO2M 8:PAA:OE1 8:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M9</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 9:PAA:CH 9:PAA:CH2 9:PAA:H1 9:PAA:H2A 9:PAA:H2B 9:PAA:CO2M 9:PAA:OE1 9:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M10</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 10:PAA:CH 10:PAA:CH2 10:PAA:H1 10:PAA:H2A 10:PAA:H2B 10:PAA:CO2M 10:PAA:OE1 10:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M11</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 11:PAA:CH 11:PAA:CH2 11:PAA:H1 11:PAA:H2A 11:PAA:H2B 11:PAA:CO2M 11:PAA:OE1 11:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M12</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 12:PAA:CH 12:PAA:CH2 12:PAA:H1 12:PAA:H2A 12:PAA:H2B 12:PAA:CO2M 12:PAA:OE1 12:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M13</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 13:PAA:CH 13:PAA:CH2 13:PAA:H1 13:PAA:H2A 13:PAA:H2B 13:PAA:CO2M 13:PAA:OE1 13:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M14</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 14:PAA:CH 14:PAA:CH2 14:PAA:H1 14:PAA:H2A 14:PAA:H2B 14:PAA:CO2M 14:PAA:OE1 14:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M15</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 15:PAA:CH 15:PAA:CH2 15:PAA:H1 15:PAA:H2A 15:PAA:H2B 15:PAA:CO2M 15:PAA:OE1 15:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M16</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 16:PAA:CH 16:PAA:CH2 16:PAA:H1 16:PAA:H2A 16:PAA:H2B 16:PAA:CO2M 16:PAA:OE1 16:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M17</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 17:PAA:CH 17:PAA:CH2 17:PAA:H1 17:PAA:H2A 17:PAA:H2B 17:PAA:CO2M 17:PAA:OE1 17:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M18</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 18:PAA:CH 18:PAA:CH2 18:PAA:H1 18:PAA:H2A 18:PAA:H2B 18:PAA:CO2M 18:PAA:OE1 18:PAA:OE2 </beads>
+      </cg_bead>
+      <cg_bead>
+        <name>M19</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO</mapping>
+        <beads> 19:PAA:CH 19:PAA:CH2 19:PAA:H1 19:PAA:H2A 19:PAA:H2B 19:PAA:CO2M 19:PAA:OE1 19:PAA:OE2 </beads>
+      </cg_bead>
+
+      <!-- End monomer (end) -->
+      <cg_bead>
+        <name>M20</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>MONO_S</mapping>
+        <beads> 20:PAA:CHE 20:PAA:CH2E 20:PAA:HEAE 20:PAA:HEBE 20:PAA:H2AE 20:PAA:H2BE 20:PAA:CO2ME 20:PAA:OE1E 20:PAA:OE2E </beads>
+      </cg_bead>
+    </cg_beads>
+
+    <cg_bonded>
+      <bond>
+        <name>bond</name>
+        <beads> M1 M2 M2 M3 M3 M4 M4 M5 M5 M6 M6 M7 M7 M8 M8 M9 M9 M10 M10 M11 M11 M12 M12 M13 M13 M14 M14 M15 M15 M16 M16 M17 M17 M18 M18 M19 M19 M20 </beads>
+      </bond>
+
+      <angle>
+        <name>MMM</name>
+        <beads> M1 M2 M3 M2 M3 M4 M3 M4 M5 M4 M5 M6 M5 M6 M7 M6 M7 M8 M7 M8 M9 M8 M9 M10 M9 M10 M11 M10 M11 M12 M11 M12 M13 M12 M13 M14 M13 M14 M15 M14 M15 M16 M15 M16 M17 M16 M17 M18 M17 M18 M19 M18 M19 M20 </beads>
+      </angle>
+
+      <dihedral>
+        <name>MMMM</name>
+        <beads> M1 M2 M3 M4 M2 M3 M4 M5 M3 M4 M5 M6 M4 M5 M6 M7 M5 M6 M7 M8 M6 M7 M8 M9 M7 M8 M9 M10 M8 M9 M10 M11 M9 M10 M11 M12 M10 M11 M12 M13 M11 M12 M13 M14 M12 M13 M14 M15 M13 M14 M15 M16 M14 M15 M16 M17 M15 M16 M17 M18 M16 M17 M18 M19 M17 M18 M19 M20 </beads>
+      </dihedral>
+    </cg_bonded>
+  </topology>
+
+  <maps>
+    <map>
+      <name>MONO</name>
+      <weights> 12 12 1 1 1 12 16 16 </weights>
+    </map>
+    <map>
+      <name>MONO_S</name>
+      <weights> 12 12 1 1 1 1 12 16 16 </weights>
+    </map>
+  </maps>
+</cg_molecule>
+

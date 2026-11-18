@@ -1,0 +1,95 @@
+<cg>
+  <fmatch>
+    <constrainedLS>0</constrainedLS>
+    <!-- Number of frames for block averaging  -->
+    <frames_per_block>6</frames_per_block>
+  </fmatch>
+  <bonded>
+    <!--  name of the interaction  -->
+    <name>bond</name>
+    <min>0.00</min>
+    <max>3.00</max>
+    <step>0.001</step>
+    <!--  fmatch specific stuff  -->
+    <fmatch>
+      <min>0.00</min>
+      <max>3.00</max>
+      <step>0.001</step>
+      <res_output_coeff>5</res_output_coeff>
+    </fmatch>
+  </bonded>
+  <bonded>
+    <name>MMM</name>
+    <min>0</min>
+    <max>3.144</max>
+    <step>0.001</step>
+    <!--  fmatch specific stuff  -->
+    <fmatch>
+      <min>0.0</min>
+      <max>3.144</max>
+      <step>0.06</step>
+      <res_output_coeff>5</res_output_coeff>
+    </fmatch>
+  </bonded>
+  <bonded>
+    <name>MMMM</name>
+    <min>-3.144</min>
+    <max>3.144</max>
+    <step>0.001</step>
+    <!--  fmatch specific stuff  -->
+    <fmatch>
+      <min>-3.144</min>
+      <max>3.144</max>
+      <step>0.06</step>
+      <res_output_coeff>5</res_output_coeff>
+    </fmatch>
+  </bonded>
+  <non-bonded>
+    <!--  name of the interaction  -->
+    <name>M-M</name>
+    <min>0.0</min>
+    <max>3.0</max>
+    <step>0.01</step>
+    <type1>M</type1>
+    <type2>M</type2>
+    <!--  fmatch specific stuff  -->
+    <fmatch>
+      <min>0.0</min>
+      <max>3.0</max>
+      <step>0.01</step>
+      <res_output_coeff>5</res_output_coeff>
+    </fmatch>
+  </non-bonded>
+  <non-bonded>
+    <!--  name of the interaction  -->
+    <name>M-NA</name>
+    <min>0.0</min>
+    <max>3.0</max>
+    <step>0.01</step>
+    <type1>M</type1>
+    <type2>NA</type2>
+    <!--  fmatch specific stuff  -->
+    <fmatch>
+      <min>0.0</min>
+      <max>3.0</max>
+      <step>0.01</step>
+      <res_output_coeff>5</res_output_coeff>
+    </fmatch>
+    </non-bonded>
+  <non-bonded>
+    <!--  name of the interaction  -->
+    <name>NA-NA</name>
+    <min>0.0</min>
+    <max>3.0</max>
+    <step>0.01</step>
+    <type1>NA</type1>
+    <type2>NA</type2>
+    <!--  fmatch specific stuff  -->
+    <fmatch>
+      <min>0.0</min>
+      <max>3.0</max>
+      <step>0.01</step>
+      <res_output_coeff>5</res_output_coeff>
+    </fmatch>
+  </non-bonded>
+</cg>
