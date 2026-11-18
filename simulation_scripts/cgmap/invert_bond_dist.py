@@ -173,4 +173,3 @@ def invert_dihedral(d_type):
 invert_bond("bond")
 invert_angle("MMM")
 invert_dihedral("MMMM")
-#invert_nonbonded("M-M", -1, -1, 0.97)
