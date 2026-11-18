@@ -1,0 +1,56 @@
+units           real
+atom_style      full
+boundary        p p p
+neighbor        2.0 bin
+neigh_modify    every 1 delay 0 check yes
+
+read_data       paa_cg.data
+comm_modify     cutoff 20.0
+
+pair_style      hybrid/overlay table linear 2000 coul/long 20.0
+pair_coeff      1 1 table pair_PAA_PAA.table   PAA_PAA
+pair_coeff      1 2 table pair_PAA_NA.table    PAA_NA
+pair_coeff      2 2 table pair_NA_NA.table     NA_NA
+pair_coeff      * * coul/long
+kspace_style    pppm 1.0e-4
+
+bond_style      table linear 1000
+bond_coeff      1 bond_M_M.table bondMM
+angle_style     table linear 1000
+angle_coeff     1 angle_MMM.table angMMM
+dihedral_style  table linear 1000
+dihedral_coeff  1 dihedral_MMMM.table dihMMMM
+
+special_bonds   lj 0.0 0.0 0.0 coul 0.0 0.0 0.0
+
+timestep        5.0
+thermo          1000
+
+# --- define end beads ---
+group end1 id 1
+group end2 id 20
+
+# --- harmonic umbrella on end-to-end distance ---
+# x=y=z=0 => spherical restraint with equilibrium distance R0 = r0
+
+fix umb end1 spring couple end2 ${k} 0.0 0.0 0.0 ${r0}
+fix_modify umb energy yes   # optional, adds spring energy to PE :contentReference[oaicite:1]{index=1}
+
+# --- measure end-to-end distance (using COMs; single atoms => just atom positions) ---
+variable Ree equal "sqrt((xcm(end2,x)-xcm(end1,x))^2 + (xcm(end2,y)-xcm(end1,y))^2 + (xcm(end2,z)-xcm(end1,z))^2)"
+
+thermo_style custom step temp pe etotal v_Ree f_umb
+
+# thermostat
+fix 1 all nvt temp 300.0 300.0 10.0
+
+# write timeseries for WHAM (1st column is step; WHAM can ignore it)
+fix rc all ave/time 10 20 200 v_Ree file ree.dat mode scalar
+
+# equil + production (tune)
+
+run 200000
+
+
+run 200000000
+

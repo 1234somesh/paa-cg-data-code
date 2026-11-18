@@ -1,0 +1,63 @@
+units           real
+atom_style      full
+boundary        p p p   # same as in GROMACS
+neighbor        2.0 bin
+neigh_modify    every 1 delay 0 check yes
+
+read_data       ../paa_cg.data
+comm_modify     cutoff 20.0
+# pairwise interactions (2 atom types: 1=M, 2=NA)
+pair_style hybrid/overlay table linear 2000 coul/long 20.0
+pair_coeff      1 1 table ../step_83/updated_potentials/pair_PAA_PAA.table   PAA_PAA
+pair_coeff      1 2 table ../step_83/updated_potentials/pair_PAA_CS.table  PAA_CS
+pair_coeff      2 2 table ../initial/pair_CS_CS.table CS_CS 
+
+# Coulomb substyle: full Coulomb from charges + PPPM
+pair_coeff      * * coul/long
+kspace_style    pppm 1.0e-4
+
+# bonded
+bond_style      table linear 1000
+bond_coeff      1 ../initial/bond_M_M.table bondMM
+
+angle_style     table linear 1000
+angle_coeff     1 ../initial/angle_MMM.table angMMM
+
+dihedral_style  table linear 1000
+dihedral_coeff  1 ../initial/dihedral_MMMM.table dihMMMM
+
+# mimic GROMACS nrexcl (adjust if needed)
+special_bonds   lj 0.0 0.0 0.0 coul 0.0 0.0 0.0
+
+# thermo, timestep (use something similar to CG GROMACS dt)
+timestep        5.0    # fs, example
+
+thermo_style    custom step temp etotal pe ke
+thermo          1000
+
+# integrator + thermostat (example NVT)
+fix             1 all nvt temp 300.0 300.0 10.0
+
+# --- trajectory dump for VMD ---
+dump            1 all custom 100 traj_paa_cg.lammpstrj id type q xu yu zu
+dump_modify     1 sort id 
+
+# --- RDF PAA–NA (type 1–2) ---
+compute         myRDF all rdf 200 1 2 cutoff 20.0
+fix             rdf_out all ave/time 8 5000000 40000000 c_myRDF[*] file rdf_PAA_CS.dat mode vector
+
+# --- RDF PAA–PAA (type 1–1) ---
+compute         myRDF2 all rdf 200 1 1 cutoff 20.0
+fix             rdf_out2 all ave/time 8 5000000 40000000 c_myRDF2[*] file rdf_PAA_PAA.dat mode vector
+
+# --- RDF NA–NA (type 2–2) ---
+compute         myRDF3 all rdf 200 2 2 cutoff 20.0
+fix             rdf_out3 all ave/time 8 5000000 40000000 c_myRDF3[*] file rdf_CS_CS.dat mode vector
+
+group          PAA type 1
+compute        myRg PAA gyration
+variable       Rg_nm equal 0.1*c_myRg
+fix            Rg_out all ave/time 10 20 200 c_myRg file Rg_PAA.dat mode scalar
+
+run             40000000
+

@@ -1,0 +1,14 @@
+#include "amber03_dang.ff/forcefield.itp"
+#include "amber03_dang.ff/spce.itp"
+#include "PAA.itp"
+; ions included later by genion:
+#include "amber03_dang.ff/ions.itp"
+
+[ system ]
+PAA 19-mer in water (0.154 M)
+
+[ molecules ]
+; molname   count
+PAA         1
+NA               19
+SOL              6736

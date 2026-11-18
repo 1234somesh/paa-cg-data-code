@@ -1,0 +1,83 @@
+integrator               = md
+
+tinit                    = 0
+dt                       = 0.001
+nsteps                   = 60000000
+init-step                = 0
+simulation-part          = 1
+
+comm-mode                = Linear
+nstcomm                  = 10
+comm-grps                = System
+
+nstxout                  = 0
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 5000
+nstcalcenergy            = 5000
+nstenergy                = 5000
+nstxout-compressed       = 5000
+compressed-x-precision   = 1000
+compressed-x-grps        = non-Water
+
+cutoff-scheme            = Verlet
+nstlist                  = 5
+pbc                      = xyz
+periodic-molecules       = no
+verlet-buffer-tolerance  = 0.005
+rlist                    = 1.4
+
+coulombtype              = PME
+coulomb-modifier         = Potential-shift-Verlet
+rcoulomb-switch          = 0
+rcoulomb                 = 1.4
+epsilon-r                = 1
+vdw-type                 = Cut-off
+vdw-modifier             = Potential-shift-Verlet
+rvdw-switch              = 0
+rvdw                     = 1.4
+DispCorr                 = EnerPres
+table-extension          = 1
+fourierspacing           = 0.116
+pme_order                = 4
+ewald-rtol               = 1e-03
+ewald-geometry           = 3d
+epsilon-surface          = 0
+
+tcoupl                   = v-rescale
+tc-grps                  = Water non-Water
+tau_t                    = 0.1 0.1
+ref_t                    = 300 300
+pcoupl                   = No
+
+gen-vel                  = no
+
+constraints              = none
+continuation             = no
+
+pull                     = yes
+pull-cylinder-r          = 1.5
+pull-constr-tol          = 1e-06
+pull-print-com           = no
+pull-print-ref-value     = no
+pull-print-components    = no
+pull-nstxout             = 50
+pull-nstfout             = 50
+pull-pbc-ref-prev-step-com = no
+pull-xout-average        = no
+pull-fout-average        = no
+pull-ngroups             = 2
+pull-ncoords             = 1
+pull-group1-name         = end1
+pull-group1-pbcatom      = 0
+pull-group2-name         = end2
+pull-group2-pbcatom      = 0
+pull-coord1-type         = umbrella
+pull-coord1-dx           = 1e-09
+pull-coord1-geometry     = distance
+pull-coord1-groups       = 1 2
+pull-coord1-dim          = Y Y Y
+pull-coord1-start        = yes
+pull-coord1-init         = 0
+pull-coord1-rate         = 0.0
+pull-coord1-k            = 1500

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.lammpstrj
+*.xtc
+*.trr
+log.lammps
+*.bak*

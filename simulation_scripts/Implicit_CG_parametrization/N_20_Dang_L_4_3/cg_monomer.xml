@@ -1,0 +1,85 @@
+<cg_molecule>
+  <name>PAA</name>
+  <ident>PAA</ident>
+  <topology>
+    <cg_beads>
+      <cg_bead>
+        <name>M1</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>M</mapping>
+        <beads> 1:PAA:M1 </beads>
+      </cg_bead>
+
+      <cg_bead>
+        <name>M2</name>
+        <type>M</type>
+        <symmetry>1</symmetry>
+        <mapping>A</mapping>
+        <beads> 1:PAA:M2 </beads>
+      </cg_bead>
+
+      <cg_bead><name>M3</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M3  </beads></cg_bead>
+      <cg_bead><name>M4</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M4  </beads></cg_bead>
+      <cg_bead><name>M5</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M5  </beads></cg_bead>
+      <cg_bead><name>M6</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M6  </beads></cg_bead>
+      <cg_bead><name>M7</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M7  </beads></cg_bead>
+      <cg_bead><name>M8</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M8  </beads></cg_bead>
+      <cg_bead><name>M9</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M9  </beads></cg_bead>
+      <cg_bead><name>M10</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M10 </beads></cg_bead>
+      <cg_bead><name>M11</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M11 </beads></cg_bead>
+      <cg_bead><name>M12</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M12 </beads></cg_bead>
+      <cg_bead><name>M13</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M13 </beads></cg_bead>
+      <cg_bead><name>M14</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M14 </beads></cg_bead>
+      <cg_bead><name>M15</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M15 </beads></cg_bead>
+      <cg_bead><name>M16</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M16 </beads></cg_bead>
+      <cg_bead><name>M17</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M17 </beads></cg_bead>
+      <cg_bead><name>M18</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M18 </beads></cg_bead>
+      <cg_bead><name>M19</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M19 </beads></cg_bead>
+      <cg_bead><name>M20</name><type>M</type><symmetry>1</symmetry><mapping>M</mapping><beads> 1:PAA:M20 </beads></cg_bead>
+    </cg_beads>
+
+    <cg_bonded>
+      <!-- bonds: M1-M2, M2-M3, ..., M19-M20 -->
+      <bond>
+        <name>MM</name>
+        <beads>
+          M1 M2  M2 M3  M3 M4  M4 M5  M5 M6
+          M6 M7  M7 M8  M8 M9  M9 M10 M10 M11
+          M11 M12 M12 M13 M13 M14 M14 M15
+          M15 M16 M16 M17 M17 M18 M18 M19 M19 M20
+        </beads>
+      </bond>
+
+      <!-- angles: (M1 M2 M3), (M2 M3 M4), ..., (M18 M19 M20) -->
+      <angle>
+        <name>MMM</name>
+        <beads>
+          M1 M2 M3   M2 M3 M4   M3 M4 M5   M4 M5 M6   M5 M6 M7
+          M6 M7 M8   M7 M8 M9   M8 M9 M10  M9 M10 M11 M10 M11 M12
+          M11 M12 M13 M12 M13 M14 M13 M14 M15 M14 M15 M16
+          M15 M16 M17 M16 M17 M18 M17 M18 M19 M18 M19 M20
+        </beads>
+      </angle>
+
+      <!-- dihedrals: (M1 M2 M3 M4), (M2 M3 M4 M5), ..., (M17 M18 M19 M20) -->
+      <dihedral>
+        <name>MMMM</name>
+        <beads>
+          M1 M2 M3 M4   M2 M3 M4 M5   M3 M4 M5 M6   M4 M5 M6 M7
+          M5 M6 M7 M8   M6 M7 M8 M9   M7 M8 M9 M10  M8 M9 M10 M11
+          M9 M10 M11 M12 M10 M11 M12 M13 M11 M12 M13 M14
+          M12 M13 M14 M15 M13 M14 M15 M16 M14 M15 M16 M17
+          M15 M16 M17 M18 M16 M17 M18 M19 M17 M18 M19 M20
+        </beads>
+      </dihedral>
+    </cg_bonded>
+  </topology>
+
+  <maps>
+    <!-- identity mappings (1 underlying handle per M bead) -->
+    <map><name>M</name><weights> 1 </weights></map>
+    <map><name>A</name><weights> 1 </weights></map>
+  </maps>
+</cg_molecule>
+

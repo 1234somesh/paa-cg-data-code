@@ -1,0 +1,52 @@
+# This file was created Tue Jul 28 11:25:35 2026
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2024.3 (-:
+# 
+# Executable:   /tikhome/skurahatti/Downloads/gmx_install_gpu/bin/gmx
+# Data prefix:  /tikhome/skurahatti/Downloads/gmx_install_gpu
+# Working dir:  /work/skurahatti/multivalent/2d-gel/PAA_dang/parametrization/Cs_last/Try13/step_84
+# Command line:
+#   gmx analyze -f Rg_PAA.xvg -dist rg_dist.xvg -bw 0.03
+# gmx analyze is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Distribution"
+@    xaxis  label ""
+@    yaxis  label ""
+@TYPE xy
+ 0.6  0
+ 0.63  0
+ 0.66  0.000833333
+ 0.69  0.00666667
+ 0.72  0.0291667
+ 0.75  0.0941667
+ 0.78  0.197667
+ 0.81  0.321167
+ 0.84  0.433167
+ 0.87  0.584167
+ 0.9  0.810333
+ 0.93  1.092
+ 0.96  1.51
+ 0.99  1.93133
+ 1.02  2.28667
+ 1.05  2.72267
+ 1.08  3.012
+ 1.11  3.195
+ 1.14  3.213
+ 1.17  3.02317
+ 1.2  2.70733
+ 1.23  2.1805
+ 1.26  1.6365
+ 1.29  1.06933
+ 1.32  0.634667
+ 1.35  0.353833
+ 1.38  0.165
+ 1.41  0.0761667
+ 1.44  0.0316667
+ 1.47  0.0101667
+ 1.5  0.00366667
+ 1.53  0.001
+ 1.56  0.000166667
+ 1.59  0.000166667
+ 1.62  0

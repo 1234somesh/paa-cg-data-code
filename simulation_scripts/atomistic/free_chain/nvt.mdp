@@ -1,0 +1,49 @@
+integrator = md
+dt = 0.0005
+nsteps = 600000000
+
+nstenergy = 5000
+nstlog = 5000
+nstxout-compressed = 2000
+compressed-x-grps = non-Water
+
+constraint-algorithm = lincs
+constraints = h-bonds
+continuation = no
+periodic-molecules = no
+
+tcoupl = v-rescale
+tau_t = 0.1
+ref_t = 300
+tc_grps = system
+
+;pcoupl = C-rescale
+;Pcoupltype = isotropic
+;nstpcouple = -1
+;tau_p = 1.0
+;compressibility = 4.5e-5 
+;ref_p = 1.0  
+
+comm-mode = linear
+
+cutoff-scheme = Verlet
+verlet-buffer-tolerance = 0.005   ; More flexibility in cut-off calculations
+nstlist = 2
+
+; OPTIONS FOR ELECTROSTATICS AND VDW
+coulombtype              = PME
+coulomb-modifier         = None
+rcoulomb-switch          = 0
+rcoulomb                 = 1.2  ; Adjusted for half-box compatibility
+rlist                    = 1.2
+epsilon-r                = 1
+epsilon-rf               = 0
+
+fourierspacing           = 0.12
+
+vdw-type                 = Cut-off
+vdw-modifier             = None
+rvdw-switch              = 0
+rvdw                     = 1.2  ; Adjusted to avoid exceeding the half-box limit
+gen_vel                  = yes
+gen_temp                 = 300

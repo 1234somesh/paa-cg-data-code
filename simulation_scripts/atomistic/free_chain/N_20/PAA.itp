@@ -1,0 +1,1217 @@
+[ moleculetype ]
+; molname	nrexcl
+PAA		3
+
+[ atoms ]
+; id  type   resnr  resid  atom   cgnr   charge  mass
+    1 CR         1 PAA    CHS        1    0.272   12.011
+    2 CO2M       1 PAA    CO2MS      2    0.859   12.011
+    3 CR         1 PAA    CH3S       3   -0.343   12.011
+    4 O2CM       1 PAA    OE1S       4   -0.906   16.000
+    5 O2CM       1 PAA    OE2S       5   -0.906   16.000
+    6 HC         1 PAA    H1S        6   -0.090    1.008
+    7 HC         1 PAA    H3AS       7    0.038    1.008
+    8 HC         1 PAA    H3BS       8    0.038    1.008
+    9 HC         1 PAA    H3CS       9    0.038    1.008
+   10 CR         2 PAA    CH        10    0.031   12.011
+   11 CO2M       2 PAA    CO2M      11    0.898   12.011
+   12 CR         2 PAA    CH2       12   -0.066   12.011
+   13 O2CM       2 PAA    OE1       13   -0.896   16.000
+   14 O2CM       2 PAA    OE2       14   -0.896   16.000
+   15 HC         2 PAA    H1        15   -0.043    1.008
+   16 HC         2 PAA    H2A       16   -0.014    1.008
+   17 HC         2 PAA    H2B       17   -0.014    1.008
+   18 CR         3 PAA    CH        18    0.031   12.011
+   19 CO2M       3 PAA    CO2M      19    0.898   12.011
+   20 CR         3 PAA    CH2       20   -0.066   12.011
+   21 O2CM       3 PAA    OE1       21   -0.896   16.000
+   22 O2CM       3 PAA    OE2       22   -0.896   16.000
+   23 HC         3 PAA    H1        23   -0.043    1.008
+   24 HC         3 PAA    H2A       24   -0.014    1.008
+   25 HC         3 PAA    H2B       25   -0.014    1.008
+   26 CR         4 PAA    CH        26    0.031   12.011
+   27 CO2M       4 PAA    CO2M      27    0.898   12.011
+   28 CR         4 PAA    CH2       28   -0.066   12.011
+   29 O2CM       4 PAA    OE1       29   -0.896   16.000
+   30 O2CM       4 PAA    OE2       30   -0.896   16.000
+   31 HC         4 PAA    H1        31   -0.043    1.008
+   32 HC         4 PAA    H2A       32   -0.014    1.008
+   33 HC         4 PAA    H2B       33   -0.014    1.008
+   34 CR         5 PAA    CH        34    0.031   12.011
+   35 CO2M       5 PAA    CO2M      35    0.898   12.011
+   36 CR         5 PAA    CH2       36   -0.066   12.011
+   37 O2CM       5 PAA    OE1       37   -0.896   16.000
+   38 O2CM       5 PAA    OE2       38   -0.896   16.000
+   39 HC         5 PAA    H1        39   -0.043    1.008
+   40 HC         5 PAA    H2A       40   -0.014    1.008
+   41 HC         5 PAA    H2B       41   -0.014    1.008
+   42 CR         6 PAA    CH        42    0.031   12.011
+   43 CO2M       6 PAA    CO2M      43    0.898   12.011
+   44 CR         6 PAA    CH2       44   -0.066   12.011
+   45 O2CM       6 PAA    OE1       45   -0.896   16.000
+   46 O2CM       6 PAA    OE2       46   -0.896   16.000
+   47 HC         6 PAA    H1        47   -0.043    1.008
+   48 HC         6 PAA    H2A       48   -0.014    1.008
+   49 HC         6 PAA    H2B       49   -0.014    1.008
+   50 CR         7 PAA    CH        50    0.031   12.011
+   51 CO2M       7 PAA    CO2M      51    0.898   12.011
+   52 CR         7 PAA    CH2       52   -0.066   12.011
+   53 O2CM       7 PAA    OE1       53   -0.896   16.000
+   54 O2CM       7 PAA    OE2       54   -0.896   16.000
+   55 HC         7 PAA    H1        55   -0.043    1.008
+   56 HC         7 PAA    H2A       56   -0.014    1.008
+   57 HC         7 PAA    H2B       57   -0.014    1.008
+   58 CR         8 PAA    CH        58    0.031   12.011
+   59 CO2M       8 PAA    CO2M      59    0.898   12.011
+   60 CR         8 PAA    CH2       60   -0.066   12.011
+   61 O2CM       8 PAA    OE1       61   -0.896   16.000
+   62 O2CM       8 PAA    OE2       62   -0.896   16.000
+   63 HC         8 PAA    H1        63   -0.043    1.008
+   64 HC         8 PAA    H2A       64   -0.014    1.008
+   65 HC         8 PAA    H2B       65   -0.014    1.008
+   66 CR         9 PAA    CH        66    0.031   12.011
+   67 CO2M       9 PAA    CO2M      67    0.898   12.011
+   68 CR         9 PAA    CH2       68   -0.066   12.011
+   69 O2CM       9 PAA    OE1       69   -0.896   16.000
+   70 O2CM       9 PAA    OE2       70   -0.896   16.000
+   71 HC         9 PAA    H1        71   -0.043    1.008
+   72 HC         9 PAA    H2A       72   -0.014    1.008
+   73 HC         9 PAA    H2B       73   -0.014    1.008
+   74 CR        10 PAA    CH        74    0.031   12.011
+   75 CO2M      10 PAA    CO2M      75    0.898   12.011
+   76 CR        10 PAA    CH2       76   -0.066   12.011
+   77 O2CM      10 PAA    OE1       77   -0.896   16.000
+   78 O2CM      10 PAA    OE2       78   -0.896   16.000
+   79 HC        10 PAA    H1        79   -0.043    1.008
+   80 HC        10 PAA    H2A       80   -0.014    1.008
+   81 HC        10 PAA    H2B       81   -0.014    1.008
+   82 CR        11 PAA    CH        82    0.031   12.011
+   83 CO2M      11 PAA    CO2M      83    0.898   12.011
+   84 CR        11 PAA    CH2       84   -0.066   12.011
+   85 O2CM      11 PAA    OE1       85   -0.896   16.000
+   86 O2CM      11 PAA    OE2       86   -0.896   16.000
+   87 HC        11 PAA    H1        87   -0.043    1.008
+   88 HC        11 PAA    H2A       88   -0.014    1.008
+   89 HC        11 PAA    H2B       89   -0.014    1.008
+   90 CR        12 PAA    CH        90    0.031   12.011
+   91 CO2M      12 PAA    CO2M      91    0.898   12.011
+   92 CR        12 PAA    CH2       92   -0.066   12.011
+   93 O2CM      12 PAA    OE1       93   -0.896   16.000
+   94 O2CM      12 PAA    OE2       94   -0.896   16.000
+   95 HC        12 PAA    H1        95   -0.043    1.008
+   96 HC        12 PAA    H2A       96   -0.014    1.008
+   97 HC        12 PAA    H2B       97   -0.014    1.008
+   98 CR        13 PAA    CH        98    0.031   12.011
+   99 CO2M      13 PAA    CO2M      99    0.898   12.011
+  100 CR        13 PAA    CH2      100   -0.066   12.011
+  101 O2CM      13 PAA    OE1      101   -0.896   16.000
+  102 O2CM      13 PAA    OE2      102   -0.896   16.000
+  103 HC        13 PAA    H1       103   -0.043    1.008
+  104 HC        13 PAA    H2A      104   -0.014    1.008
+  105 HC        13 PAA    H2B      105   -0.014    1.008
+  106 CR        14 PAA    CH       106    0.031   12.011
+  107 CO2M      14 PAA    CO2M     107    0.898   12.011
+  108 CR        14 PAA    CH2      108   -0.066   12.011
+  109 O2CM      14 PAA    OE1      109   -0.896   16.000
+  110 O2CM      14 PAA    OE2      110   -0.896   16.000
+  111 HC        14 PAA    H1       111   -0.043    1.008
+  112 HC        14 PAA    H2A      112   -0.014    1.008
+  113 HC        14 PAA    H2B      113   -0.014    1.008
+  114 CR        15 PAA    CH       114    0.031   12.011
+  115 CO2M      15 PAA    CO2M     115    0.898   12.011
+  116 CR        15 PAA    CH2      116   -0.066   12.011
+  117 O2CM      15 PAA    OE1      117   -0.896   16.000
+  118 O2CM      15 PAA    OE2      118   -0.896   16.000
+  119 HC        15 PAA    H1       119   -0.043    1.008
+  120 HC        15 PAA    H2A      120   -0.014    1.008
+  121 HC        15 PAA    H2B      121   -0.014    1.008
+  122 CR        16 PAA    CH       122    0.031   12.011
+  123 CO2M      16 PAA    CO2M     123    0.898   12.011
+  124 CR        16 PAA    CH2      124   -0.066   12.011
+  125 O2CM      16 PAA    OE1      125   -0.896   16.000
+  126 O2CM      16 PAA    OE2      126   -0.896   16.000
+  127 HC        16 PAA    H1       127   -0.043    1.008
+  128 HC        16 PAA    H2A      128   -0.014    1.008
+  129 HC        16 PAA    H2B      129   -0.014    1.008
+  130 CR        17 PAA    CH       130    0.031   12.011
+  131 CO2M      17 PAA    CO2M     131    0.898   12.011
+  132 CR        17 PAA    CH2      132   -0.066   12.011
+  133 O2CM      17 PAA    OE1      133   -0.896   16.000
+  134 O2CM      17 PAA    OE2      134   -0.896   16.000
+  135 HC        17 PAA    H1       135   -0.043    1.008
+  136 HC        17 PAA    H2A      136   -0.014    1.008
+  137 HC        17 PAA    H2B      137   -0.014    1.008
+  138 CR        18 PAA    CH       138    0.031   12.011
+  139 CO2M      18 PAA    CO2M     139    0.898   12.011
+  140 CR        18 PAA    CH2      140   -0.066   12.011
+  141 O2CM      18 PAA    OE1      141   -0.896   16.000
+  142 O2CM      18 PAA    OE2      142   -0.896   16.000
+  143 HC        18 PAA    H1       143   -0.043    1.008
+  144 HC        18 PAA    H2A      144   -0.014    1.008
+  145 HC        18 PAA    H2B      145   -0.014    1.008
+  146 CR        19 PAA    CH       146    0.031   12.011
+  147 CO2M      19 PAA    CO2M     147    0.898   12.011
+  148 CR        19 PAA    CH2      148   -0.066   12.011
+  149 O2CM      19 PAA    OE1      149   -0.896   16.000
+  150 O2CM      19 PAA    OE2      150   -0.896   16.000
+  151 HC        19 PAA    H1       151   -0.043    1.008
+  152 HC        19 PAA    H2A      152   -0.014    1.008
+  153 HC        19 PAA    H2B      153   -0.014    1.008
+  154 CR        20 PAA    CHE      154   -0.213   12.011
+  155 CO2M      20 PAA    CO2ME    155    0.950   12.011
+  156 CR        20 PAA    CH2E     156    0.391   12.011
+  157 O2CM      20 PAA    OE1E     157   -0.942   16.000
+  158 O2CM      20 PAA    OE2E     158   -0.942   16.000
+  159 HC        20 PAA    HEAE     159   -0.027    1.008
+  160 HC        20 PAA    HEBE     160   -0.027    1.008
+  161 HC        20 PAA    H2AE     161   -0.095    1.008
+  162 HC        20 PAA    H2BE     162   -0.095    1.008
+                                                           
+[ bonds ]
+
+    1      2      1    0.13060     390280.0 ; CR-CO2M
+    1      3      1    0.15350     253630.0 ; CR-CR
+    1      6      1    0.10920     282250.0 ; HC-CR
+    1     12      1    0.15350     253630.0 ; CR-CR
+    2      4      1    0.15080     274720.0 ; CO2M-O2CM
+    2      5      1    0.15080     274720.0 ; CO2M-O2CM
+    3      7      1    0.10920     282250.0 ; HC-CR
+    3      8      1    0.10920     282250.0 ; HC-CR
+    3      9      1    0.10920     282250.0 ; HC-CR
+   10     11      1    0.13060     390280.0 ; CR-CO2M
+   10     12      1    0.15350     253630.0 ; CR-CR
+   10     15      1    0.10920     282250.0 ; HC-CR
+   10     20      1    0.15350     253630.0 ; CR-CR
+   11     13      1    0.15080     274720.0 ; CO2M-O2CM
+   10     14      1    0.15080     274720.0 ; CO2M-O2CM
+   12     16      1    0.10920     282250.0 ; HC-CR
+   12     17      1    0.10920     282250.0 ; HC-CR
+   18     19      1    0.13060    390280.0 ; CR-CO2M
+   18     20      1    0.15350    253630.0 ; CR-CR
+   18     23      1    0.10920    282250.0 ; HC-CR
+   18     28      1    0.15350    253630.0 ; CR-CR
+   19     21      1    0.15080    274720.0 ; CO2M-O2CM
+   19     22      1    0.15080    274720.0 ; CO2M-O2CM
+   20     24      1    0.10920    282250.0 ; HC-CR
+   20     25      1    0.10920    282250.0 ; HC-CR
+   26     27      1    0.13060    390280.0 ; CR-CO2M
+   26     28      1    0.15350    253630.0 ; CR-CR
+   26     31      1    0.10920    282250.0 ; HC-CR
+   26     36      1    0.15350    253630.0 ; CR-CR
+   27     29      1    0.15080    274720.0 ; CO2M-O2CM
+   27     30      1    0.15080    274720.0 ; CO2M-O2CM
+   28     32      1    0.10920    282250.0 ; HC-CR
+   28     33      1    0.10920    282250.0 ; HC-CR
+   34     35      1    0.13060    390280.0 ; CR-CO2M
+   34     36      1    0.15350    253630.0 ; CR-CR
+   34     39      1    0.10920    282250.0 ; HC-CR
+   34     44      1    0.15350    253630.0 ; CR-CR
+   35     37      1    0.15080    274720.0 ; CO2M-O2CM
+   35     38      1    0.15080    274720.0 ; CO2M-O2CM
+   36     40      1    0.10920    282250.0 ; HC-CR
+   36     41      1    0.10920    282250.0 ; HC-CR
+   42     43      1    0.13060    390280.0 ; CR-CO2M
+   42     44      1    0.15350    253630.0 ; CR-CR
+   42     47      1    0.10920    282250.0 ; HC-CR
+   42     52      1    0.15350    253630.0 ; CR-CR
+   43     45      1    0.15080    274720.0 ; CO2M-O2CM
+   43     46      1    0.15080    274720.0 ; CO2M-O2CM
+   44     48      1    0.10920    282250.0 ; HC-CR
+   44     49      1    0.10920    282250.0 ; HC-CR
+   50     51      1    0.13060    390280.0 ; CR-CO2M
+   50     52      1    0.15350    253630.0 ; CR-CR
+   50     55      1    0.10920    282250.0 ; HC-CR
+   50     60      1    0.15350    253630.0 ; CR-CR
+   51     53      1    0.15080    274720.0 ; CO2M-O2CM
+   51     54      1    0.15080    274720.0 ; CO2M-O2CM
+   52     56      1    0.10920    282250.0 ; HC-CR
+   52     57      1    0.10920    282250.0 ; HC-CR
+   58     59      1    0.13060    390280.0 ; CR-CO2M
+   58     60      1    0.15350    253630.0 ; CR-CR
+   58     63      1    0.10920    282250.0 ; HC-CR
+   58     68      1    0.15350    253630.0 ; CR-CR
+   59     61      1    0.15080    274720.0 ; CO2M-O2CM
+   59     62      1    0.15080    274720.0 ; CO2M-O2CM
+   60     64      1    0.10920    282250.0 ; HC-CR
+   60     65      1    0.10920    282250.0 ; HC-CR
+   66     67      1    0.13060    390280.0 ; CR-CO2M
+   66     68      1    0.15350    253630.0 ; CR-CR
+   66     71      1    0.10920    282250.0 ; HC-CR
+   66     76      1    0.15350    253630.0 ; CR-CR
+   67     69      1    0.15080    274720.0 ; CO2M-O2CM
+   67     70      1    0.15080    274720.0 ; CO2M-O2CM
+   68     72      1    0.10920    282250.0 ; HC-CR
+   68     73      1    0.10920    282250.0 ; HC-CR
+   74     75      1    0.13060    390280.0 ; CR-CO2M
+   74     76      1    0.15350    253630.0 ; CR-CR
+   74     79      1    0.10920    282250.0 ; HC-CR
+   74     84      1    0.15350    253630.0 ; CR-CR
+   75     77      1    0.15080    274720.0 ; CO2M-O2CM
+   75     78      1    0.15080    274720.0 ; CO2M-O2CM
+   76     80      1    0.10920    282250.0 ; HC-CR
+   76     81      1    0.10920    282250.0 ; HC-CR
+   82     83      1    0.13060    390280.0 ; CR-CO2M
+   82     84      1    0.15350    253630.0 ; CR-CR
+   82     87      1    0.10920    282250.0 ; HC-CR
+   82     92      1    0.15350    253630.0 ; CR-CR
+   83     85      1    0.15080    274720.0 ; CO2M-O2CM
+   83     86      1    0.15080    274720.0 ; CO2M-O2CM
+   84     88      1    0.10920    282250.0 ; HC-CR
+   84     89      1    0.10920    282250.0 ; HC-CR
+   90     91      1    0.13060    390280.0 ; CR-CO2M
+   90     92      1    0.15350    253630.0 ; CR-CR
+   90     95      1    0.10920    282250.0 ; HC-CR
+   90    100      1    0.15350    253630.0 ; CR-CR
+   91     93      1    0.15080    274720.0 ; CO2M-O2CM
+   91     94      1    0.15080    274720.0 ; CO2M-O2CM
+   92     96      1    0.10920    282250.0 ; HC-CR
+   92     97      1    0.10920    282250.0 ; HC-CR
+   98     99      1    0.13060    390280.0 ; CR-CO2M
+   98    100      1    0.15350    253630.0 ; CR-CR
+   98    103      1    0.10920    282250.0 ; HC-CR
+   98    108      1    0.15350    253630.0 ; CR-CR
+   99    101      1    0.15080    274720.0 ; CO2M-O2CM
+   99    102      1    0.15080    274720.0 ; CO2M-O2CM
+  100    104      1    0.10920    282250.0 ; HC-CR
+  100    105      1    0.10920    282250.0 ; HC-CR
+  106    107      1    0.13060    390280.0 ; CR-CO2M
+  106    108      1    0.15350    253630.0 ; CR-CR
+  106    111      1    0.10920    282250.0 ; HC-CR
+  106    116      1    0.15350    253630.0 ; CR-CR
+  107    109      1    0.15080    274720.0 ; CO2M-O2CM
+  107    110      1    0.15080    274720.0 ; CO2M-O2CM
+  108    112      1    0.10920    282250.0 ; HC-CR
+  108    113      1    0.10920    282250.0 ; HC-CR
+  114    115      1    0.13060    390280.0 ; CR-CO2M
+  114    116      1    0.15350    253630.0 ; CR-CR
+  114    119      1    0.10920    282250.0 ; HC-CR
+  114    124      1    0.15350    253630.0 ; CR-CR
+  115    117      1    0.15080    274720.0 ; CO2M-O2CM
+  115    118      1    0.15080    274720.0 ; CO2M-O2CM
+  116    120      1    0.10920    282250.0 ; HC-CR
+  116    121      1    0.10920    282250.0 ; HC-CR
+  122    123      1    0.13060    390280.0 ; CR-CO2M
+  122    124      1    0.15350    253630.0 ; CR-CR
+  122    127      1    0.10920    282250.0 ; HC-CR
+  122    132      1    0.15350    253630.0 ; CR-CR
+  123    125      1    0.15080    274720.0 ; CO2M-O2CM
+  123    126      1    0.15080    274720.0 ; CO2M-O2CM
+  124    128      1    0.10920    282250.0 ; HC-CR
+  124    129      1    0.10920    282250.0 ; HC-CR
+  130    131      1    0.13060    390280.0 ; CR-CO2M
+  130    132      1    0.15350    253630.0 ; CR-CR
+  130    135      1    0.10920    282250.0 ; HC-CR
+  130    140      1    0.15350    253630.0 ; CR-CR
+  131    133      1    0.15080    274720.0 ; CO2M-O2CM
+  131    134      1    0.15080    274720.0 ; CO2M-O2CM
+  132    136      1    0.10920    282250.0 ; HC-CR
+  132    137      1    0.10920    282250.0 ; HC-CR
+  138    139      1    0.13060    390280.0 ; CR-CO2M
+  138    140      1    0.15350    253630.0 ; CR-CR
+  138    143      1    0.10920    282250.0 ; HC-CR
+  138    148      1    0.15350    253630.0 ; CR-CR
+  139    141      1    0.15080    274720.0 ; CO2M-O2CM
+  139    142      1    0.15080    274720.0 ; CO2M-O2CM
+  140    144      1    0.10920    282250.0 ; HC-CR
+  140    145      1    0.10920    282250.0 ; HC-CR
+  146    147      1    0.13060    390280.0 ; CR-CO2M
+  146    148      1    0.15350    253630.0 ; CR-CR
+  146    151      1    0.10920    282250.0 ; HC-CR
+  146    156      1    0.15350    253630.0 ; CR-CR
+  147    149      1    0.15080    274720.0 ; CO2M-O2CM
+  147    150      1    0.15080    274720.0 ; CO2M-O2CM
+  148    152      1    0.10920    282250.0 ; HC-CR
+  148    153      1    0.10920    282250.0 ; HC-CR
+  154    155      1    0.13060    390280.0 ; CR-CO2M
+  154    156      1    0.15350    253630.0 ; CR-CR
+  154    159      1    0.10920    282250.0 ; HC-CR
+  155    157      1    0.15080    274720.0 ; CO2M-O2CM
+  155    158      1    0.15080    274720.0 ; CO2M-O2CM
+  156    161      1    0.10920    282250.0 ; HC-CR
+  156    162      1    0.10920    282250.0 ; HC-CR
+  154    160      1    0.10920    282250.0 ; HC-CR
+
+[ angles ]
+;  ai    aj    ak  funct   theta0   k (kJ/mol)
+   7      3      8       1    108.35    329.95   ; Auto-generated angle
+   7      3      1       1    110.05    388.02   ; Auto-generated angle
+   3      1      2       1    110.53    533.79   ; Auto-generated angle
+   3      1      11      1    110.63    528.94   ; Auto-generated angle
+   6      1      2       1    109.68    394.97   ; Auto-generated angle
+   1      2      4       1    123.11    569.28   ; Auto-generated angle
+   1      2      5       1    123.11    569.28   ; Auto-generated angle
+   4      2      5       1    130.38    654.13   ; Auto-generated angle
+   8      3      1       1    110.05    388.02   ; Auto-generated angle
+   6      1      3       1    110.05    388.02   ; Auto-generated angle
+   6      1      11      1    110.63    528.94   ; Auto-generated angle
+   1      11     9       1    110.63    528.94   ; Auto-generated angle
+   9      3      1       1    110.05    388.02   ; Auto-generated angle
+   9      3      7       1    108.35    329.95   ; Auto-generated angle
+   9      3      8       1    110.05    388.02   ; Auto-generated angle
+   16     12     17      1    108.35    329.95 ;"Auto-generated angle"),
+   16     12     10      1    110.05    388.02 ;"Auto-generated angle"),
+   12     10     11      1    110.53    533.79 ;"Auto-generated angle"),
+   12     10     15      1    110.63    528.94 ;"Auto-generated angle"),
+   15     10     11      1    109.68    394.97 ;"Auto-generated angle"),
+   10     11     13      1    123.11    569.28 ;"Auto-generated angle"),
+   10     11     14      1    123.11    569.28 ;"Auto-generated angle"),
+   13     11     14      1    130.38    654.13 ;"Auto-generated angle"),
+   17     12     10      1    110.05    388.02 ;"Auto-generated angle"),
+   15     10     12      1    110.05    388.02 ;"Auto-generated angle"),
+   11     10     20      1    110.53    533.79 ;"Auto-generated angle"),
+   15     10     20      1    110.63    528.94 ;"Auto-generated angle"),
+   10     20     18      1    110.63    528.94 ;"Auto-generated angle"),
+   24     20     25      1    108.35    329.95   ; Auto-generated angle
+   24     20     18      1    110.05    388.02   ; Auto-generated angle
+   20     18     19      1    110.53    533.79   ; Auto-generated angle
+   20     18     23      1    110.63    528.94   ; Auto-generated angle
+   23     18     19      1    109.68    394.97   ; Auto-generated angle
+   18     19     21      1    123.11    569.28   ; Auto-generated angle
+   18     19     22      1    123.11    569.28   ; Auto-generated angle
+   21     19     22      1    130.38    654.13   ; Auto-generated angle
+   25     20     18      1    110.05    388.02   ; Auto-generated angle
+   23     18     20      1    110.05    388.02   ; Auto-generated angle
+   19     18     28      1    110.53    533.79   ; Auto-generated angle
+   23     18     28      1    110.63    528.94   ; Auto-generated angle
+   18     28     26      1    110.63    528.94   ; Auto-generated angle
+   32     28     33      1    108.35    329.95   ; Auto-generated angle
+   32     28     26      1    110.05    388.02   ; Auto-generated angle
+   28     26     27      1    110.53    533.79   ; Auto-generated angle
+   28     26     31      1    110.63    528.94   ; Auto-generated angle
+   31     26     27      1    109.68    394.97   ; Auto-generated angle
+   26     27     29      1    123.11    569.28   ; Auto-generated angle
+   26     27     30      1    123.11    569.28   ; Auto-generated angle
+   29     27     30      1    130.38    654.13   ; Auto-generated angle
+   33     28     26      1    110.05    388.02   ; Auto-generated angle
+   31     26     28      1    110.05    388.02   ; Auto-generated angle
+   27     26     36      1    110.53    533.79   ; Auto-generated angle
+   31     26     36      1    110.63    528.94   ; Auto-generated angle
+   26     36     34      1    110.63    528.94   ; Auto-generated angle
+   40     36     41      1    108.35    329.95   ; Auto-generated angle
+   40     36     34      1    110.05    388.02   ; Auto-generated angle
+   36     34     35      1    110.53    533.79   ; Auto-generated angle
+   36     34     39      1    110.63    528.94   ; Auto-generated angle
+   39     34     35      1    109.68    394.97   ; Auto-generated angle
+   34     35     37      1    123.11    569.28   ; Auto-generated angle
+   34     35     38      1    123.11    569.28   ; Auto-generated angle
+   37     35     38      1    130.38    654.13   ; Auto-generated angle
+   41     36     34      1    110.05    388.02   ; Auto-generated angle
+   39     34     36      1    110.05    388.02   ; Auto-generated angle
+   35     34     44      1    110.53    533.79   ; Auto-generated angle
+   39     34     44      1    110.63    528.94   ; Auto-generated angle
+   34     44     42      1    110.63    528.94   ; Auto-generated angle
+   48     44     49      1    108.35    329.95   ; Auto-generated angle
+   48     44     42      1    110.05    388.02   ; Auto-generated angle
+   44     42     43      1    110.53    533.79   ; Auto-generated angle
+   44     42     47      1    110.63    528.94   ; Auto-generated angle
+   47     42     43      1    109.68    394.97   ; Auto-generated angle
+   42     43     45      1    123.11    569.28   ; Auto-generated angle
+   42     43     46      1    123.11    569.28   ; Auto-generated angle
+   45     43     46      1    130.38    654.13   ; Auto-generated angle
+   49     44     42      1    110.05    388.02   ; Auto-generated angle
+   47     42     44      1    110.05    388.02   ; Auto-generated angle
+   43     42     52      1    110.53    533.79   ; Auto-generated angle
+   47     42     52      1    110.63    528.94   ; Auto-generated angle
+   42     52     50      1    110.63    528.94   ; Auto-generated angle
+   56     52     57      1    108.35    329.95   ; Auto-generated angle
+   56     52     50      1    110.05    388.02   ; Auto-generated angle
+   52     50     51      1    110.53    533.79   ; Auto-generated angle
+   52     50     55      1    110.63    528.94   ; Auto-generated angle
+   55     50     51      1    109.68    394.97   ; Auto-generated angle
+   50     51     53      1    123.11    569.28   ; Auto-generated angle
+   50     51     54      1    123.11    569.28   ; Auto-generated angle
+   53     51     54      1    130.38    654.13   ; Auto-generated angle
+   57     52     50      1    110.05    388.02   ; Auto-generated angle
+   55     50     52      1    110.05    388.02   ; Auto-generated angle
+   51     50     60      1    110.53    533.79   ; Auto-generated angle
+   55     50     60      1    110.63    528.94   ; Auto-generated angle
+   50     60     58      1    110.63    528.94   ; Auto-generated angle
+   64     60     65      1    108.35    329.95   ; Auto-generated angle
+   64     60     58      1    110.05    388.02   ; Auto-generated angle
+   60     58     59      1    110.53    533.79   ; Auto-generated angle
+   60     58     63      1    110.63    528.94   ; Auto-generated angle
+   63     58     59      1    109.68    394.97   ; Auto-generated angle
+   58     59     61      1    123.11    569.28   ; Auto-generated angle
+   58     59     62      1    123.11    569.28   ; Auto-generated angle
+   61     59     62      1    130.38    654.13   ; Auto-generated angle
+   65     60     58      1    110.05    388.02   ; Auto-generated angle
+   63     58     60      1    110.05    388.02   ; Auto-generated angle
+   59     58     68      1    110.53    533.79   ; Auto-generated angle
+   63     58     68      1    110.63    528.94   ; Auto-generated angle
+   58     68     66      1    110.63    528.94   ; Auto-generated angle
+   72     68     73      1    108.35    329.95   ; Auto-generated angle
+   72     68     66      1    110.05    388.02   ; Auto-generated angle
+   68     66     67      1    110.53    533.79   ; Auto-generated angle
+   68     66     71      1    110.63    528.94   ; Auto-generated angle
+   71     66     67      1    109.68    394.97   ; Auto-generated angle
+   66     67     69      1    123.11    569.28   ; Auto-generated angle
+   66     67     70      1    123.11    569.28   ; Auto-generated angle
+   69     67     70      1    130.38    654.13   ; Auto-generated angle
+   73     68     66      1    110.05    388.02   ; Auto-generated angle
+   71     66     68      1    110.05    388.02   ; Auto-generated angle
+   67     66     76      1    110.53    533.79   ; Auto-generated angle
+   71     66     76      1    110.63    528.94   ; Auto-generated angle
+   66     76     74      1    110.63    528.94   ; Auto-generated angle
+   80     76     81      1    108.35    329.95   ; Auto-generated angle
+   80     76     74      1    110.05    388.02   ; Auto-generated angle
+   76     74     75      1    110.53    533.79   ; Auto-generated angle
+   76     74     79      1    110.63    528.94   ; Auto-generated angle
+   79     74     75      1    109.68    394.97   ; Auto-generated angle
+   74     75     77      1    123.11    569.28   ; Auto-generated angle
+   74     75     78      1    123.11    569.28   ; Auto-generated angle
+   77     75     78      1    130.38    654.13   ; Auto-generated angle
+   81     76     74      1    110.05    388.02   ; Auto-generated angle
+   79     74     76      1    110.05    388.02   ; Auto-generated angle
+   75     74     84      1    110.53    533.79   ; Auto-generated angle
+   79     74     84      1    110.63    528.94   ; Auto-generated angle
+   74     84     82      1    110.63    528.94   ; Auto-generated angle
+   88     84     89      1    108.35    329.95   ; Auto-generated angle
+   88     84     82      1    110.05    388.02   ; Auto-generated angle
+   84     82     83      1    110.53    533.79   ; Auto-generated angle
+   84     82     87      1    110.63    528.94   ; Auto-generated angle
+   87     82     83      1    109.68    394.97   ; Auto-generated angle
+   82     83     85      1    123.11    569.28   ; Auto-generated angle
+   82     83     86      1    123.11    569.28   ; Auto-generated angle
+   85     83     86      1    130.38    654.13   ; Auto-generated angle
+   89     84     82      1    110.05    388.02   ; Auto-generated angle
+   87     82     84      1    110.05    388.02   ; Auto-generated angle
+   83     82     92      1    110.53    533.79   ; Auto-generated angle
+   87     82     92      1    110.63    528.94   ; Auto-generated angle
+   82     92     90      1    110.63    528.94   ; Auto-generated angle
+   96     92     97      1    108.35    329.95   ; Auto-generated angle
+   96     92     90      1    110.05    388.02   ; Auto-generated angle
+   92     90     91      1    110.53    533.79   ; Auto-generated angle
+   92     90     95      1    110.63    528.94   ; Auto-generated angle
+   95     90     91      1    109.68    394.97   ; Auto-generated angle
+   90     91     93      1    123.11    569.28   ; Auto-generated angle
+   90     91     94      1    123.11    569.28   ; Auto-generated angle
+   93     91     94      1    130.38    654.13   ; Auto-generated angle
+   97     92     90      1    110.05    388.02   ; Auto-generated angle
+   95     90     92      1    110.05    388.02   ; Auto-generated angle
+   91     90    100      1    110.53    533.79   ; Auto-generated angle
+   95     90    100      1    110.63    528.94   ; Auto-generated angle
+   90    100     98      1    110.63    528.94   ; Auto-generated angle
+  104    100    105      1    108.35    329.95   ; Auto-generated angle
+  104    100     98      1    110.05    388.02   ; Auto-generated angle
+  100     98     99      1    110.53    533.79   ; Auto-generated angle
+  100     98    103      1    110.63    528.94   ; Auto-generated angle
+  103     98     99      1    109.68    394.97   ; Auto-generated angle
+   98     99    101      1    123.11    569.28   ; Auto-generated angle
+   98     99    102      1    123.11    569.28   ; Auto-generated angle
+  101     99    102      1    130.38    654.13   ; Auto-generated angle
+  105    100     98      1    110.05    388.02   ; Auto-generated angle
+  103     98    100      1    110.05    388.02   ; Auto-generated angle
+   99     98    108      1    110.53    533.79   ; Auto-generated angle
+  103     98    108      1    110.63    528.94   ; Auto-generated angle
+   98    108    106      1    110.63    528.94   ; Auto-generated angle
+  112    108    113      1    108.35    329.95   ; Auto-generated angle
+  112    108    106      1    110.05    388.02   ; Auto-generated angle
+  108    106    107      1    110.53    533.79   ; Auto-generated angle
+  108    106    111      1    110.63    528.94   ; Auto-generated angle
+  111    106    107      1    109.68    394.97   ; Auto-generated angle
+  106    107    109      1    123.11    569.28   ; Auto-generated angle
+  106    107    110      1    123.11    569.28   ; Auto-generated angle
+  109    107    110      1    130.38    654.13   ; Auto-generated angle
+  113    108    106      1    110.05    388.02   ; Auto-generated angle
+  111    106    108      1    110.05    388.02   ; Auto-generated angle
+  107    106    116      1    110.53    533.79   ; Auto-generated angle
+  111    106    116      1    110.63    528.94   ; Auto-generated angle
+  106    116    114      1    110.63    528.94   ; Auto-generated angle
+  120    116    121      1    108.35    329.95   ; Auto-generated angle
+  120    116    114      1    110.05    388.02   ; Auto-generated angle
+  116    114    115      1    110.53    533.79   ; Auto-generated angle
+  116    114    119      1    110.63    528.94   ; Auto-generated angle
+  119    114    115      1    109.68    394.97   ; Auto-generated angle
+  114    115    117      1    123.11    569.28   ; Auto-generated angle
+  114    115    118      1    123.11    569.28   ; Auto-generated angle
+  117    115    118      1    130.38    654.13   ; Auto-generated angle
+  121    116    114      1    110.05    388.02   ; Auto-generated angle
+  119    114    116      1    110.05    388.02   ; Auto-generated angle
+  115    114    124      1    110.53    533.79   ; Auto-generated angle
+  119    114    124      1    110.63    528.94   ; Auto-generated angle
+  114    124    122      1    110.63    528.94   ; Auto-generated angle
+  128    124    129      1    108.35    329.95   ; Auto-generated angle
+  128    124    122      1    110.05    388.02   ; Auto-generated angle
+  124    122    123      1    110.53    533.79   ; Auto-generated angle
+  124    122    127      1    110.63    528.94   ; Auto-generated angle
+  127    122    123      1    109.68    394.97   ; Auto-generated angle
+  122    123    125      1    123.11    569.28   ; Auto-generated angle
+  122    123    126      1    123.11    569.28   ; Auto-generated angle
+  125    123    126      1    130.38    654.13   ; Auto-generated angle
+  129    124    122      1    110.05    388.02   ; Auto-generated angle
+  127    122    124      1    110.05    388.02   ; Auto-generated angle
+  123    122    132      1    110.53    533.79   ; Auto-generated angle
+  127    122    132      1    110.63    528.94   ; Auto-generated angle
+  122    132    130      1    110.63    528.94   ; Auto-generated angle
+  136    132    137      1    108.35    329.95   ; Auto-generated angle
+  136    132    130      1    110.05    388.02   ; Auto-generated angle
+  132    130    131      1    110.53    533.79   ; Auto-generated angle
+  132    130    135      1    110.63    528.94   ; Auto-generated angle
+  135    130    131      1    109.68    394.97   ; Auto-generated angle
+  130    131    133      1    123.11    569.28   ; Auto-generated angle
+  130    131    134      1    123.11    569.28   ; Auto-generated angle
+  133    131    134      1    130.38    654.13   ; Auto-generated angle
+  137    132    130      1    110.05    388.02   ; Auto-generated angle
+  135    130    132      1    110.05    388.02   ; Auto-generated angle
+  131    130    140      1    110.53    533.79   ; Auto-generated angle
+  135    130    140      1    110.63    528.94   ; Auto-generated angle
+  130    140    138      1    110.63    528.94   ; Auto-generated angle
+  144    140    145      1    108.35    329.95   ; Auto-generated angle
+  144    140    138      1    110.05    388.02   ; Auto-generated angle
+  140    138    139      1    110.53    533.79   ; Auto-generated angle
+  140    138    143      1    110.63    528.94   ; Auto-generated angle
+  143    138    139      1    109.68    394.97   ; Auto-generated angle
+  138    139    141      1    123.11    569.28   ; Auto-generated angle
+  138    139    142      1    123.11    569.28   ; Auto-generated angle
+  141    139    142      1    130.38    654.13   ; Auto-generated angle
+  145    140    138      1    110.05    388.02   ; Auto-generated angle
+  143    138    140      1    110.05    388.02   ; Auto-generated angle
+  139    138    148      1    110.53    533.79   ; Auto-generated angle
+  143    138    148      1    110.63    528.94   ; Auto-generated angle
+  138    148    146      1    110.63    528.94   ; Auto-generated angle
+  152    148    153      1    108.35    329.95   ; Auto-generated angle
+  152    148    146      1    110.05    388.02   ; Auto-generated angle
+  148    146    147      1    110.53    533.79   ; Auto-generated angle
+  148    146    151      1    110.63    528.94   ; Auto-generated angle
+  151    146    147      1    109.68    394.97   ; Auto-generated angle
+  146    147    149      1    123.11    569.28   ; Auto-generated angle
+  146    147    150      1    123.11    569.28   ; Auto-generated angle
+  149    147    150      1    130.38    654.13   ; Auto-generated angle
+  153    148    146      1    110.05    388.02   ; Auto-generated angle
+  151    146    148      1    110.05    388.02   ; Auto-generated angle
+  147    146    156      1    110.53    533.79   ; Auto-generated angle
+  151    146    156      1    110.63    528.94   ; Auto-generated angle
+  146    156    154      1    110.63    528.94   ; Auto-generated angle 
+  161    156    162      1    108.35    329.95   ; Auto-generated angle
+  161    156    154      1    110.05    388.02   ; Auto-generated angle
+  156    154    155      1    110.53    533.79   ; Auto-generated angle
+  156    154    159      1    110.63    528.94   ; Auto-generated angle
+  159    154    155      1    109.68    394.97   ; Auto-generated angle
+  154    155    157      1    123.11    569.28   ; Auto-generated angle
+  154    155    158      1    123.11    569.28   ; Auto-generated angle
+  157    155    158      1    130.38    654.13   ; Auto-generated angle
+  162    156    154      1    110.05    388.02   ; Auto-generated angle
+  159    154    156      1    110.05    388.02   ; Auto-generated angle
+  155    154    160      1    109.68    394.97   ; Auto-generated angle
+  159    154    160      1    108.35    329.95   ; Auto-generated angle
+
+[ dihedrals ]
+; ai   aj   ak   al   funct     C0         C1         C2         C3         C4         C5
+   7    3    1    6    3    0.62760    1.88280    0.00000   -2.51040    0.00000    0.00000  ; HC-CR-CR-HC
+   6    1   12   16    3    0.62760    1.88280    0.00000   -2.51040    0.00000    0.00000  ; HC-CR-CR-HC
+   6    1   12   17    3    0.62760    1.88280    0.00000   -2.51040    0.00000    0.00000  ; HC-CR-CR-HC
+   6    1    3    8    3    0.62760    1.88280    0.00000   -2.51040    0.00000    0.00000  ; HC-CR-CR-HC
+   7    3    1    2    3    0.65084    1.95253    0.00000   -2.60338    0.00000    0.00000  ; HC-CR-CR-CO2M
+  16   12    1    2    3    0.65084    1.95253    0.00000   -2.60338    0.00000    0.00000  ; HC-CR-CR-CO2M
+   8    3    1    2    3    0.65084    1.95253    0.00000   -2.60338    0.00000    0.00000  ; HC-CR-CR-CO2M
+  17   12    1    2    3    0.65084    1.95253    0.00000   -2.60338    0.00000    0.00000  ; HC-CR-CR-CO2M
+   7    3    1   12    3    0.66944    2.00832    0.00000   -2.67776    0.00000    0.00000  ; HC-CR-CR-CR
+   8    3    1   12    3    0.66944    2.00832    0.00000   -2.67776    0.00000    0.00000  ; HC-CR-CR-CR
+   6    1   12   10    3    0.66944    2.00832    0.00000   -2.67776    0.00000    0.00000  ; HC-CR-CR-CR
+  16   12    1    3    3    0.66944    2.00832    0.00000   -2.67776    0.00000    0.00000  ; HC-CR-CR-CR
+  17   12    1    3    3    0.66944    2.00832    0.00000   -2.67776    0.00000    0.00000  ; HC-CR-CR-CR
+  15   10   12    1    3    0.66944    2.00832    0.00000   -2.67776    0.00000    0.00000  ; HC-CR-CR-CR
+   3    1    2    4    3    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000  ; CR-CR-CO2M-O2CM
+   3    1    2    5    3    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000  ; CR-CR-CO2M-O2CM
+  12    1    2    4    3    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000  ; CR-CR-CO2M-O2CM
+  12    1    2    5    3    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000  ; CR-CR-CO2M-O2CM
+   3    1   12   10    3    3.68192    3.09616   -2.09200   -3.01248    0.00000    0.00000  ; CR-CR-CR-CR
+   1   12   10   20    3    3.68192    3.09616   -2.09200   -3.01248    0.00000    0.00000  ; CR-CR-CR-CR
+   6    1    2    4    3    3.68192   -4.35136    0.00000    1.33888    0.00000    0.00000  ; HC-CR-CO2M-O2CM
+   6    1    2    5    3    3.68192   -4.35136    0.00000    1.33888    0.00000    0.00000  ; HC-CR-CO2M-O2CM
+   9    3    1    6    3    0.62760    1.88280    0.00000   -2.51040    0.00000    0.00000  ; HC-CR-CR-HC
+   9    3    1    2    3    0.65084    1.95253    0.00000   -2.60338    0.00000    0.00000  ; HC-CR-CR-CO2M
+   9    3    1   12    3    0.66944    2.00832    0.00000   -2.67776    0.00000    0.00000  ; HC-CR-CR-CR
+ 
+   16    12    10    15     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   15    10    20    24     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   15    10    20    25     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   15    10    12    17     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   16    12    10    11     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   24    20    10    11     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   17    12    10    11     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   25    20    10    11     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   16    12    10    20     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   17    12    10    20     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   15    10    20    18     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   24    20    10    12     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   25    20    10    12     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   23    18    20    10     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   12    10    11    13     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   12    10    11    14     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   20    10    11    13     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   20    10    11    14     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   12    10    20    18     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   10    20    18    28     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   15    10    11    13     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   15    10    11    14     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+   24    20    18    23     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   23    18    28    32     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   23    18    28    33     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   23    18    20    25     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   24    20    18    19     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   32    28    18    19     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   25    20    18    19     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   33    28    18    19     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   24    20    18    28     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   25    20    18    28     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   23    18    28    26     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   32    28    18    20     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   33    28    18    20     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   31    26    28    18     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   20    18    19    21     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   20    18    19    22     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   28    18    19    21     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   28    18    19    22     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   20    18    28    26     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   18    28    26    36     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   23    18    19    21     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   23    18    19    22     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   
+   32    28    26    31     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   31    26    36    40     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   31    26    36    41     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   31    26    28    33     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   32    28    26    27     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   40    36    26    27     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   33    28    26    27     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   41    36    26    27     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   32    28    26    36     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   33    28    26    36     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   31    26    36    34     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   40    36    26    28     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   41    36    26    28     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   39    34    36    26     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   28    26    27    29     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   28    26    27    30     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   36    26    27    29     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   36    26    27    30     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   28    26    36    34     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   26    36    34    44     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   31    26    27    29     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   31    26    27    30     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+   40    36    34    39     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   39    34    44    48     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   39    34    44    49     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   39    34    36    41     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   40    36    34    35     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   48    44    34    35     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   41    36    34    35     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   49    44    34    35     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   40    36    34    44     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   41    36    34    44     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   39    34    44    42     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   48    44    34    36     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   49    44    34    36     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   47    42    44    34     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   36    34    35    37     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   36    34    35    38     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   44    34    35    37     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   44    34    35    38     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   36    34    44    42     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   34    44    42    52     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   39    34    35    37     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   39    34    35    38     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+   48    44    42    47     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   47    42    52    56     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   47    42    52    57     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   47    42    44    49     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   48    44    42    43     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   56    52    42    43     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   49    44    42    43     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   57    52    42    43     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   48    44    42    52     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   49    44    42    52     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   47    42    52    50     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   56    52    42    44     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   57    52    42    44     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   55    50    52    42     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   44    42    43    45     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   44    42    43    46     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   52    42    43    45     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   52    42    43    46     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   44    42    52    50     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   42    52    50    60     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   47    42    43    45     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   47    42    43    46     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+   56    52    50    55     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   55    50    60    64     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   55    50    60    65     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   55    50    52    57     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   56    52    50    51     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   64    60    50    51     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   57    52    50    51     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   65    60    50    51     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   56    52    50    60     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   57    52    50    60     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   55    50    60    58     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   64    60    50    52     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   65    60    50    52     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   63    58    60    50     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   52    50    51    53     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   52    50    51    54     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   60    50    51    53     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   60    50    51    54     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   52    50    60    58     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   50    60    58    68     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   55    50    51    53     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   55    50    51    54     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+   64    60    58    63     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   63    58    68    72     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   63    58    68    73     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   63    58    60    65     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   64    60    58    59     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   72    68    58    59     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   65    60    58    59     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   73    68    58    59     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   64    60    58    68     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   65    60    58    68     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   63    58    68    66     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   72    68    58    60     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   73    68    58    60     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   71    66    68    58     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   60    58    59    61     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   60    58    59    62     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   68    58    59    61     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   68    58    59    62     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   60    58    68    66     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   58    68    66    76     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   63    58    59    61     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   63    58    59    62     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+   72    68    66    71     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   71    66    76    80     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   71    66    76    81     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   71    66    68    73     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   72    68    66    67     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   80    76    66    67     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   73    68    66    67     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   81    76    66    67     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   72    68    66    76     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   73    68    66    76     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   71    66    76    74     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   80    76    66    68     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   81    76    66    68     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   79    74    76    66     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   68    66    67    69     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   68    66    67    70     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   76    66    67    69     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   76    66    67    70     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   68    66    76    74     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   66    76    74    84     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   71    66    67    69     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   71    66    67    70     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+   80    76    74    79     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   79    74    84    88     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   79    74    84    89     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   79    74    76    81     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   80    76    74    75     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   88    84    74    75     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   81    76    74    75     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   89    84    74    75     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   80    76    74    84     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   81    76    74    84     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   79    74    84    82     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   88    84    74    76     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   89    84    74    76     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   87    82    84    74     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   76    74    75    77     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   76    74    75    78     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   84    74    75    77     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   84    74    75    78     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   76    74    84    82     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   74    84    82    92     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   79    74    75    77     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   79    74    75    78     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+   88    84    82    87     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   87    82    92    96     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   87    82    92    97     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   87    82    84    89     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   88    84    82    83     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   96    92    82    83     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   89    84    82    83     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   97    92    82    83     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   88    84    82    92     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   89    84    82    92     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   87    82    92    90     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   96    92    82    84     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   97    92    82    84     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   95    90    92    82     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   84    82    83    85     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   84    82    83    86     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   92    82    83    85     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   92    82    83    86     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   84    82    92    90     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   82    92    90   100     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   87    82    83    85     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   87    82    83    86     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+   96    92    90    95     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   95    90   100   104     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   95    90   100   105     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   95    90    92    97     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+   96    92    90    91     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  104   100    90    91     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   97    92    90    91     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  105   100    90    91     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+   96    92    90   100     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   97    92    90   100     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   95    90   100    98     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  104   100    90    92     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  105   100    90    92     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  103    98   100    90     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+   92    90    91    93     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   92    90    91    94     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  100    90    91    93     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  100    90    91    94     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+   92    90   100    98     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   90   100    98   108     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   95    90    91    93     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+   95    90    91    94     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+  104   100    98   103     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  103    98   108   112     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  103    98   108   113     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  103    98   100   105     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  104   100    98    99     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  112   108    98    99     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  105   100    98    99     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  113   108    98    99     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  104   100    98   108     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  105   100    98   108     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  103    98   108   106     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  112   108    98   100     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  113   108    98   100     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  111   106   108    98     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  100    98    99   101     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  100    98    99   102     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  108    98    99   101     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  108    98    99   102     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  100    98   108   106     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+   98   108   106   116     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  103    98    99   101     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  103    98    99   102     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+  112   108   106   111     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  111   106   116   120     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  111   106   116   121     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  111   106   108   113     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  112   108   106   107     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  120   116   106   107     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  113   108   106   107     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  121   116   106   107     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  112   108   106   116     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  113   108   106   116     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  111   106   116   114     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  120   116   106   108     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  121   116   106   108     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  119   114   116   106     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  108   106   107   109     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  108   106   107   110     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  116   106   107   109     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  116   106   107   110     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  108   106   116   114     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  106   116   114   124     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  111   106   107   109     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  111   106   107   110     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+  120   116   114   119     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  119   114   124   128     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  119   114   124   129     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  119   114   116   121     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  120   116   114   115     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  128   124   114   115     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  121   116   114   115     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  129   124   114   115     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  120   116   114   124     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  121   116   114   124     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  119   114   124   122     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  128   124   114   116     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  129   124   114   116     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  127   122   124   114     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  116   114   115   117     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  116   114   115   118     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  124   114   115   117     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  124   114   115   118     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  116   114   124   122     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  114   124   122   132     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  119   114   115   117     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  119   114   115   118     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+  128   124   122   127     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  127   122   132   136     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  127   122   132   137     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  127   122   124   129     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  128   124   122   123     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  136   132   122   123     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  129   124   122   123     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  137   132   122   123     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  128   124   122   132     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  129   124   122   132     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  127   122   132   130     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  136   132   122   124     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  137   132   122   124     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  135   130   132   122     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  124   122   123   125     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  124   122   123   126     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  132   122   123   125     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  132   122   123   126     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  124   122   132   130     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  122   132   130   140     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  127   122   123   125     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  127   122   123   126     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+  136   132   130   135     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  135   130   140   144     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  135   130   140   145     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  135   130   132   137     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  136   132   130   131     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  144   140   130   131     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  137   132   130   131     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  145   140   130   131     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  136   132   130   140     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  137   132   130   140     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  135   130   140   138     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  144   140   130   132     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  145   140   130   132     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  143   138   140   130     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  132   130   131   133     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  132   130   131   134     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  140   130   131   133     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  140   130   131   134     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  132   130   140   138     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  130   140   138   148     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  135   130   131   133     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  135   130   131   134     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  
+  144   140   138   143     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  143   138   148   152     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  143   138   148   153     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  143   138   140   145     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  144   140   138   139     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  152   148   138   139     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  145   140   138   139     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  153   148   138   139     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  144   140   138   148     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  145   140   138   148     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  143   138   148   146     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  152   148   138   140     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  153   148   138   140     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  151   146   148   138     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  140   138   139   141     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  140   138   139   142     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  148   138   139   141     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  148   138   139   142     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  140   138   148   146     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  138   148   146   156     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  143   138   139   141     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  143   138   139   142     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+
+  152   148   146   151     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  151   146   156   160     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  151   146   156   161     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  151   146   148   153     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  152   148   146   147     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  160   156   146   147     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  153   148   146   147     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  161   156   146   147     3   0.65084   1.95253   0.00000  -2.60338   0.00000   0.00000  ; HC-CR-CR-CO2M
+  152   148   146   156     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  153   148   146   156     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  151   146   156   154     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  160   156   146   148     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  161   156   146   148     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  159   154   156   146     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000  ; HC-CR-CR-CR
+  148   146   147   149     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  148   146   147   150     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  156   146   147   149     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  156   146   147   150     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  148   146   156   154     3   3.68192   3.09616  -2.09200  -3.01248   0.00000   0.00000  ; CR-CR-CR-CR
+  151   146   147   149     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  151   146   147   150     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+
+  161   156   154   159     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  161   156   154   160     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  161   156   154   155     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000 
+  162   156   154   160     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  162   156   154   159     3   0.62760   1.88280   0.00000  -2.51040   0.00000   0.00000  ; HC-CR-CR-HC
+  162   156   154   155     3   0.66944   2.00832   0.00000  -2.67776   0.00000   0.00000 
+  156   154   155   157     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  156   154   155   158     3   0.00000   0.00000   0.00000   0.00000   0.00000   0.00000  ; CR-CR-CO2M-O2CM
+  160   154   155   157     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  160   154   155   158     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  157   155   154   159     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+  158   155   154   159     3   3.68192  -4.35136   0.00000   1.33888   0.00000   0.00000  ; HC-CR-CO2M-O2CM
+
+#ifdef FLAT_BOTTOM_PAA
+[ position_restraints ]
+; id   funct   g     r(nm)       k(kJ/mol/nm^2)
+1	2	5	1.560		4000
+2	2	5	1.560		4000
+3	2	5	1.560		4000
+4	2	5	1.560		4000
+5	2	5	1.560		4000
+6	2	5	1.560		4000
+7	2	5	1.560		4000
+8	2	5	1.560		4000
+9	2	5	1.560		4000
+10	2	5	1.560		4000
+11	2	5	1.560		4000
+12	2	5	1.560		4000
+13	2	5	1.560		4000
+14	2	5	1.560		4000
+15	2	5	1.560		4000
+16	2	5	1.560		4000
+17	2	5	1.560		4000
+18	2	5	1.560		4000
+19	2	5	1.560		4000
+20	2	5	1.560		4000
+21	2	5	1.560		4000
+22	2	5	1.560		4000
+23	2	5	1.560		4000
+24	2	5	1.560		4000
+25	2	5	1.560		4000
+26	2	5	1.560		4000
+27	2	5	1.560		4000
+28	2	5	1.560		4000
+29	2	5	1.560		4000
+30	2	5	1.560		4000
+31	2	5	1.560		4000
+32	2	5	1.560		4000
+33	2	5	1.560		4000
+34	2	5	1.560		4000
+35	2	5	1.560		4000
+36	2	5	1.560		4000
+37	2	5	1.560		4000
+38	2	5	1.560		4000
+39	2	5	1.560		4000
+40	2	5	1.560		4000
+41	2	5	1.560		4000
+42	2	5	1.560		4000
+43	2	5	1.560		4000
+44	2	5	1.560		4000
+45	2	5	1.560		4000
+46	2	5	1.560		4000
+47	2	5	1.560		4000
+48	2	5	1.560		4000
+49	2	5	1.560		4000
+50	2	5	1.560		4000
+51	2	5	1.560		4000
+52	2	5	1.560		4000
+53	2	5	1.560		4000
+54	2	5	1.560		4000
+55	2	5	1.560		4000
+56	2	5	1.560		4000
+57	2	5	1.560		4000
+58	2	5	1.560		4000
+59	2	5	1.560		4000
+60	2	5	1.560		4000
+61	2	5	1.560		4000
+62	2	5	1.560		4000
+63	2	5	1.560		4000
+64	2	5	1.560		4000
+65	2	5	1.560		4000
+66	2	5	1.560		4000
+67	2	5	1.560		4000
+68	2	5	1.560		4000
+69	2	5	1.560		4000
+70	2	5	1.560		4000
+71	2	5	1.560		4000
+72	2	5	1.560		4000
+73	2	5	1.560		4000
+74	2	5	1.560		4000
+75	2	5	1.560		4000
+76	2	5	1.560		4000
+77	2	5	1.560		4000
+78	2	5	1.560		4000
+79	2	5	1.560		4000
+80	2	5	1.560		4000
+81	2	5	1.560		4000
+82	2	5	1.560		4000
+83	2	5	1.560		4000
+84	2	5	1.560		4000
+85	2	5	1.560		4000
+86	2	5	1.560		4000
+87	2	5	1.560		4000
+88	2	5	1.560		4000
+89	2	5	1.560		4000
+90	2	5	1.560		4000
+91	2	5	1.560		4000
+92	2	5	1.560		4000
+93	2	5	1.560		4000
+94	2	5	1.560		4000
+95	2	5	1.560		4000
+96	2	5	1.560		4000
+97	2	5	1.560		4000
+98	2	5	1.560		4000
+99	2	5	1.560		4000
+100	2	5	1.560		4000
+101	2	5	1.560		4000
+102	2	5	1.560		4000
+103	2	5	1.560		4000
+104	2	5	1.560		4000
+105	2	5	1.560		4000
+106	2	5	1.560		4000
+107	2	5	1.560		4000
+108	2	5	1.560		4000
+109	2	5	1.560		4000
+110	2	5	1.560		4000
+111	2	5	1.560		4000
+112	2	5	1.560		4000
+113	2	5	1.560		4000
+114	2	5	1.560		4000
+115	2	5	1.560		4000
+116	2	5	1.560		4000
+117	2	5	1.560		4000
+118	2	5	1.560		4000
+119	2	5	1.560		4000
+120	2	5	1.560		4000
+121	2	5	1.560		4000
+122	2	5	1.560		4000
+123	2	5	1.560		4000
+124	2	5	1.560		4000
+125	2	5	1.560		4000
+126	2	5	1.560		4000
+127	2	5	1.560		4000
+128	2	5	1.560		4000
+129	2	5	1.560		4000
+130	2	5	1.560		4000
+131	2	5	1.560		4000
+132	2	5	1.560		4000
+133	2	5	1.560		4000
+134	2	5	1.560		4000
+135	2	5	1.560		4000
+136	2	5	1.560		4000
+137	2	5	1.560		4000
+138	2	5	1.560		4000
+139	2	5	1.560		4000
+140	2	5	1.560		4000
+141	2	5	1.560		4000
+142	2	5	1.560		4000
+143	2	5	1.560		4000
+144	2	5	1.560		4000
+145	2	5	1.560		4000
+146	2	5	1.560		4000
+147	2	5	1.560		4000
+148	2	5	1.560		4000
+149	2	5	1.560		4000
+150	2	5	1.560		4000
+151	2	5	1.560		4000
+152	2	5	1.560		4000
+153	2	5	1.560		4000
+154	2	5	1.560		4000
+155	2	5	1.560		4000
+156	2	5	1.560		4000
+157	2	5	1.560		4000
+158	2	5	1.560		4000
+159	2	5	1.560		4000
+160	2	5	1.560		4000
+161	2	5	1.560		4000
+162	2	5	1.560		4000
+#endif

@@ -1,0 +1,21 @@
+<cg_molecule>
+  <name>NA</name>
+  <ident>NA</ident>
+  <topology>
+    <cg_beads>
+      <cg_bead>
+        <name>NA</name>
+        <type>NA</type>
+        <symmetry>1</symmetry>
+        <mapping>NA</mapping>
+        <beads> 1:NA:NA </beads>
+      </cg_bead>
+    </cg_beads>
+  </topology>
+  <maps>
+    <map>
+      <name>NA</name>
+      <weights>1</weights>
+    </map>
+  </maps>
+</cg_molecule>

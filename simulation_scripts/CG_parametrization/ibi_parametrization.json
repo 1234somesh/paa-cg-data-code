@@ -1,0 +1,277 @@
+{
+  "description": "Iterative Boltzmann inversion (IBI) of the non-bonded CG pair potentials of PAA with Na+, K+ or Cs+ counterions (and Cl- co-ions with added salt). Paths are relative to this file.",
+  "how_to_run": {
+    "command": "cd <path>; ./run_ibi.sh <LAST_STEP>",
+    "requires": [
+      "LAMMPS (lmp in PATH)",
+      "Python 3 with NumPy and Matplotlib",
+      "step_01/ with in.lmp and updated_potentials/"
+    ],
+    "each_iteration": [
+      "lmp -in in.lmp  (pair tables from ../step_<i-1>/updated_potentials/; writes rdf_<pair>.dat)",
+      "python3 ../ibi.py  (IBI update of the pairs in pairs_updated; others copied)",
+      "python3 ../fit_short_range.py  (replaces the unsampled short-range core of each updated table by a smooth repulsive wall; script in <path>)",
+      "python3 ../shift_to_zero.py --rcut 20.0  (potential shifted to zero at the cutoff)"
+    ]
+  },
+  "ibi": {
+    "update": "U_new(r) = U_old(r) + prefactor * kB*T * ln(g_CG(r) / g_target(r)),  r <= r_cut_corr",
+    "prefactor": 0.04,
+    "temperature_K": 300.0,
+    "g_floor": 1e-06,
+    "r_cut_corr_angstrom": 20.0,
+    "initial_potentials": "<path>/initial/ (PMF-derived short-range potentials; bonded tables from Boltzmann inversion)",
+    "targets": "<path>/targets/<pair>.dist.dat (atomistic RDFs, r in nm)",
+    "convergence": "merit function of the RDFs, merit.py (where present)"
+  },
+  "lammps": {
+    "units": "real (r in Angstrom, energy in kcal/mol)",
+    "box_nm": 6.0,
+    "N_monomers": 20,
+    "pair_style": "hybrid/overlay table linear 2000 coul/long 20.0",
+    "kspace": "pppm 1.0e-4",
+    "thermostat": "Nose-Hoover NVT, T = 300 K, T_damp = 10 fs",
+    "timestep_fs": 5.0,
+    "run_length_per_iteration": "see runs[].run_length_per_iteration_ns"
+  },
+  "runs": [
+    {
+      "path": "box_l_6nm/Cs/csalt_0.0/update_PAA_PAA_and_PAA_Cs",
+      "ion": "Cs",
+      "csalt_M": 0.0,
+      "pairs_updated": [
+        "PAA_CS",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [
+        "CS_CS"
+      ],
+      "n_iterations": 84,
+      "last_step": "step_84",
+      "run_length_per_iteration_ns": 20.0,
+      "final_step": "step_84",
+      "final_potentials": "../CG/tabulated_potentials_Cs/salt_free"
+    },
+    {
+      "path": "box_l_6nm/Cs/csalt_0.046",
+      "ion": "Cs",
+      "csalt_M": 0.046,
+      "pairs_updated": [
+        "CL_CL",
+        "CS_CL",
+        "CS_CS",
+        "PAA_CL",
+        "PAA_CS",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [],
+      "n_iterations": 81,
+      "last_step": "step_81",
+      "run_length_per_iteration_ns": 20.0
+    },
+    {
+      "path": "box_l_6nm/Cs/csalt_0.1",
+      "ion": "Cs",
+      "csalt_M": 0.1,
+      "pairs_updated": [
+        "CL_CL",
+        "CS_CL",
+        "CS_CS",
+        "PAA_CL",
+        "PAA_CS",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [],
+      "n_iterations": 103,
+      "last_step": "step_103",
+      "run_length_per_iteration_ns": 20.0
+    },
+    {
+      "path": "box_l_6nm/Cs/csalt_0.2",
+      "ion": "Cs",
+      "csalt_M": 0.2,
+      "pairs_updated": [
+        "CL_CL",
+        "CS_CL",
+        "CS_CS",
+        "PAA_CL",
+        "PAA_CS",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [],
+      "n_iterations": 93,
+      "last_step": "step_93",
+      "run_length_per_iteration_ns": 20.0
+    },
+    {
+      "path": "box_l_6nm/Cs/csalt_0.5",
+      "ion": "Cs",
+      "csalt_M": 0.5,
+      "pairs_updated": [
+        "CL_CL",
+        "CS_CL",
+        "CS_CS",
+        "PAA_CL",
+        "PAA_CS",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [],
+      "n_iterations": 57,
+      "last_step": "step_57",
+      "run_length_per_iteration_ns": 20.0
+    },
+    {
+      "path": "box_l_6nm/K/csalt_0.0/update_PAA_PAA_and_PAA_K",
+      "ion": "K",
+      "csalt_M": 0.0,
+      "pairs_updated": [
+        "PAA_K",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [
+        "K_K"
+      ],
+      "n_iterations": 80,
+      "last_step": "step_80",
+      "run_length_per_iteration_ns": 20.0,
+      "final_step": "step_80",
+      "final_potentials": "../CG/tabulated_potentials_K/salt_free"
+    },
+    {
+      "path": "box_l_6nm/K/csalt_0.046",
+      "ion": "K",
+      "csalt_M": 0.046,
+      "pairs_updated": [
+        "PAA_K",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [
+        "CL_CL",
+        "K_CL",
+        "K_K",
+        "PAA_CL"
+      ],
+      "n_iterations": 67,
+      "last_step": "step_67",
+      "run_length_per_iteration_ns": 20.0
+    },
+    {
+      "path": "box_l_6nm/K/csalt_0.1",
+      "ion": "K",
+      "csalt_M": 0.1,
+      "pairs_updated": [
+        "CL_CL",
+        "K_CL",
+        "K_K",
+        "PAA_CL",
+        "PAA_K",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [],
+      "n_iterations": 85,
+      "last_step": "step_85",
+      "run_length_per_iteration_ns": 20.0
+    },
+    {
+      "path": "box_l_6nm/K/csalt_0.2",
+      "ion": "K",
+      "csalt_M": 0.2,
+      "pairs_updated": [
+        "CL_CL",
+        "K_CL",
+        "K_K",
+        "PAA_CL",
+        "PAA_K",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [],
+      "n_iterations": 92,
+      "last_step": "step_92",
+      "run_length_per_iteration_ns": 15.0
+    },
+    {
+      "path": "box_l_6nm/K/csalt_0.5",
+      "ion": "K",
+      "csalt_M": 0.5,
+      "pairs_updated": [
+        "PAA_K",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [
+        "CL_CL",
+        "K_CL",
+        "K_K",
+        "PAA_CL"
+      ],
+      "n_iterations": 70,
+      "last_step": "step_70",
+      "run_length_per_iteration_ns": 10.0
+    },
+    {
+      "path": "box_l_6nm/Na/csalt_0.0/update_PAA_PAA_PAA-NA_NA-NA",
+      "ion": "Na",
+      "csalt_M": 0.0,
+      "pairs_updated": [
+        "NA_NA",
+        "PAA_NA",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [],
+      "n_iterations": 60,
+      "last_step": "step_60",
+      "run_length_per_iteration_ns": 20.0,
+      "extra_post_processing": "add_inner_guard.py --rmin 0.0001"
+    },
+    {
+      "path": "box_l_6nm/Na/csalt_0.0/update_PAA_PAA_and_PAA_Na",
+      "ion": "Na",
+      "csalt_M": 0.0,
+      "pairs_updated": [
+        "PAA_NA",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [
+        "NA_NA"
+      ],
+      "n_iterations": 56,
+      "last_step": "step_56",
+      "run_length_per_iteration_ns": 20.0,
+      "final_step": "step_56",
+      "final_potentials": "../CG/tabulated_potentials_Na/salt_free"
+    },
+    {
+      "path": "box_l_6nm/Na/csalt_0.2",
+      "ion": "Na",
+      "csalt_M": 0.2,
+      "pairs_updated": [
+        "CL_CL",
+        "NA_CL",
+        "NA_NA",
+        "PAA_CL",
+        "PAA_NA",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [],
+      "n_iterations": 88,
+      "last_step": "step_88",
+      "run_length_per_iteration_ns": 15.0
+    },
+    {
+      "path": "box_l_6nm/Na/csalt_0.5",
+      "ion": "Na",
+      "csalt_M": 0.5,
+      "pairs_updated": [
+        "CL_CL",
+        "NA_CL",
+        "NA_NA",
+        "PAA_CL",
+        "PAA_NA",
+        "PAA_PAA"
+      ],
+      "pairs_fixed": [],
+      "n_iterations": 77,
+      "last_step": "step_77",
+      "run_length_per_iteration_ns": 15.0
+    }
+  ]
+}

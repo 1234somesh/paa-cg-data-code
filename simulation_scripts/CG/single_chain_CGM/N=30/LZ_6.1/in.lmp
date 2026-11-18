@@ -1,0 +1,68 @@
+units           real
+atom_style      full
+boundary        p p p   # same as in GROMACS
+neighbor        2.0 bin
+neigh_modify    every 1 delay 0 check yes
+
+read_data       paa_cg.data
+# box is cubic 60 A -> half-box = 30 A, which is also the pair_PAA_PAA/pair_PAA_NA table
+# cutoff now used (they were re-tabulated out to ~30 A for this system, vs ~22 A in LZ_5.1).
+# comm_modify cutoff must cover the largest pair cutoff + neighbor skin (30.0 + 2.0).
+# NOTE: a cutoff sitting right at L/2 is a real correctness caveat (see chat) -- LAMMPS can
+# still run correctly with comm_modify cutoff set explicitly like this, but if you see
+# unexpected energies/forces or warnings about lost atoms, that is the first place to look.
+comm_modify     cutoff 32.0
+# pairwise interactions (2 atom types: 1=M, 2=NA)
+pair_style hybrid/overlay table linear 2000 coul/long 20.0
+pair_coeff      1 1 table pair_PAA_PAA.table   PAA_PAA
+pair_coeff      1 2 table pair_PAA_NA.table  PAA_NA
+pair_coeff      2 2 table pair_NA_NA.table NA_NA
+
+# Coulomb substyle: full Coulomb from charges + PPPM
+pair_coeff      * * coul/long
+kspace_style    pppm 1.0e-4
+
+# bonded (unchanged from LZ_5.1 -- same tables, same functional form)
+bond_style      table linear 1000
+bond_coeff      1 bond_M_M.table bondMM
+
+angle_style     table linear 1000
+angle_coeff     1 angle_MMM.table angMMM
+
+dihedral_style  table linear 1000
+dihedral_coeff  1 dihedral_MMMM.table dihMMMM
+
+# mimic GROMACS nrexcl (adjust if needed)
+special_bonds   lj 0.0 0.0 0.0 coul 0.0 0.0 0.0
+
+# thermo, timestep (use something similar to CG GROMACS dt)
+timestep        5    # fs, example
+
+thermo_style    custom step temp etotal pe ke
+thermo          1000
+
+# integrator + thermostat (example NVT)
+fix             1 all nvt temp 300.0 300.0 10.0
+
+#group          PAA type 1
+#fix freeze     PAA setforce 0.0 0.0 0.0
+
+fix press_avg all ave/time 100 10 1000 c_thermo_press file pressure.dat
+
+# --- trajectory dump for VMD ---
+dump            1 all custom 200 traj_paa_cg.lammpstrj id type q xu yu zu
+dump_modify     1 sort id
+
+# --- RDF PAA-NA (type 1-2) ---
+compute         myRDF all rdf 200 1 2 cutoff 25.0
+fix             rdf_out all ave/time 10 2000000 20000000 c_myRDF[*] file rdf_PAA_NA.dat mode vector
+
+# --- RDF PAA-PAA (type 1-1) ---
+compute         myRDF2 all rdf 200 1 1 cutoff 25.0
+fix             rdf_out2 all ave/time 10 2000000 20000000 c_myRDF2[*] file rdf_PAA_PAA.dat mode vector
+
+# --- RDF NA-NA (type 2-2) ---
+compute         myRDF3 all rdf 200 2 2 cutoff 25.0
+fix             rdf_out3 all ave/time 10 2000000 20000000 c_myRDF3[*] file rdf_NA_NA.dat mode vector
+
+run             20000000

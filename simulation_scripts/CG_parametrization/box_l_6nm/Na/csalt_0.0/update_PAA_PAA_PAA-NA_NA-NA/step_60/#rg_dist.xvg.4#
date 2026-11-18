@@ -1,0 +1,42 @@
+# This file was created Thu Oct 15 04:37:16 2026
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2024.3 (-:
+# 
+# Executable:   /tikhome/skurahatti/Downloads/gmx_install_gpu/bin/gmx
+# Data prefix:  /tikhome/skurahatti/Downloads/gmx_install_gpu
+# Working dir:  /work/skurahatti/multivalent/2d-gel/PAA_dang/parametrization/box_l_6nm/Try_update_3/step_60
+# Command line:
+#   gmx analyze -f Rg_PAA.xvg -dist rg_dist.xvg -bw 0.04
+# gmx analyze is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "Distribution"
+@    xaxis  label ""
+@    yaxis  label ""
+@TYPE xy
+ 0.56  0
+ 0.6  0.0005
+ 0.64  0.0115
+ 0.68  0.2365
+ 0.72  0.8375
+ 0.76  1.4485
+ 0.8  1.8795
+ 0.84  1.948
+ 0.88  2.0475
+ 0.92  2.091
+ 0.96  2.154
+ 1  2.166
+ 1.04  2.1475
+ 1.08  1.981
+ 1.12  1.7695
+ 1.16  1.49
+ 1.2  1.1465
+ 1.24  0.7955
+ 1.28  0.4405
+ 1.32  0.251
+ 1.36  0.107
+ 1.4  0.0375
+ 1.44  0.011
+ 1.48  0.0025
+ 1.52  0

@@ -1,0 +1,139 @@
+<cg>
+
+  <!-- M–M -->
+  <non-bonded>
+    <name>M-M</name>
+    <type1>M</type1>
+    <type2>M</type2>
+    <min>0.00</min>
+    <max>2.12</max>
+    <step>0.01</step>
+    <inverse>
+      <target>M-M.dist.tgt</target>
+      <do_potential>1</do_potential>
+
+      <post_update>scale smooth shift</post_update>
+      <post_update_options>
+        <scale>0.04</scale>   <!-- λ = 0.05 -->
+        <!-- KEEP your smoothing -->
+        <smooth><iterations>20</iterations></smooth>
+        <!-- shift has no options -->
+      </post_update_options> 
+      <post_add>shift convergence</post_add>
+      <post_add_options>
+        <smooth><iterations>20</iterations></smooth>  <!-- gentle, on V not ΔU -->
+      </post_add_options>
+      <ibi>
+        <group>all</group>
+        <max_corr>0.3</max_corr>   <!-- cap per-bin ΔU in kBT if supported -->
+        <init_from_pmf>1</init_from_pmf>
+      </ibi>
+
+      <gromacs><table>table_M_M.xvg</table></gromacs>
+    </inverse>
+  </non-bonded>
+
+  <!-- M–NA -->
+  <non-bonded>
+    <name>M-NA</name>
+    <type1>M</type1>
+    <type2>NA</type2>
+    <min>0.00</min>
+    <max>2.12</max>
+    <step>0.01</step>
+    <inverse>
+      <target>M-NA.dist.tgt</target>
+      <do_potential>1</do_potential>
+
+      <post_update>scale smooth shift</post_update>
+      <post_update_options>
+        <!-- DAMPING: set your lambda here -->
+        <scale>0.04</scale>   <!-- λ = 0.05 -->
+        <!-- KEEP your smoothing -->
+        <smooth><iterations>20</iterations></smooth>
+        <!-- shift has no options -->
+      </post_update_options> 
+      <post_add>convergence</post_add>
+      <post_add_options>
+        <smooth><iterations>5</iterations></smooth>  <!-- gentle, on V not ΔU -->
+      </post_add_options>
+      <ibi>
+        <group>all</group>
+        <max_corr>0.5</max_corr>   <!-- cap per-bin ΔU in kBT if supported -->
+        <!-- start from PMF to avoid giant first jump (use whichever your VOTCA supports) -->
+        <!-- or: <init_from_pmf>1</init_from_pmf> -->
+      </ibi> 
+      <gromacs><table>table_M_NA.xvg</table></gromacs>
+    </inverse>
+  </non-bonded>
+
+  <!-- NA–NA (set do_potential=0 to freeze, if desired) -->
+  <non-bonded>
+    <name>NA-NA</name>
+    <type1>NA</type1>
+    <type2>NA</type2>
+    <min>0.00</min>
+    <max>2.12</max>
+    <step>0.01</step>
+    <inverse> 
+      <target>NA-NA.dist.tgt</target>
+      <do_potential>1</do_potential>
+      <post_update>scale smooth shift</post_update>
+      <post_update_options>
+        <!-- DAMPING: set your lambda here -->
+        <scale>0.04</scale>   <!-- λ = 0.05 -->
+        <!-- KEEP your smoothing -->
+        <smooth><iterations>20</iterations></smooth>
+        <!-- shift has no options -->
+      </post_update_options>
+      <post_add>convergence</post_add>
+      <post_add_options>
+        <smooth><iterations>5</iterations></smooth>  <!-- gentle, on V not ΔU -->
+      </post_add_options>
+      <ibi>
+        <group>all</group>
+        <max_corr>0.5</max_corr>   <!-- cap per-bin ΔU in kBT if supported -->
+        <!-- start from PMF to avoid giant first jump (use whichever your VOTCA supports) -->
+        <!-- or: <init_from_pmf>1</init_from_pmf> -->
+      </ibi> 
+      <gromacs><table>table_NA_NA.xvg</table></gromacs>
+    </inverse>
+  </non-bonded>
+   
+
+  <!-- Global inverse options MUST be inside <cg> -->
+  <inverse>
+    <method>ibi</method>            <!-- or ibi to test without Octave -->
+    <kBT>2.47771</kBT>              <!-- ~298 K -->
+    <program>gromacs</program>
+    <filelist>grompp.mdp topol.top conf.gro index.ndx table_b0.xvg table_a0.xvg table_d0.xvg</filelist>
+    <map>cg_monomer.xml</map>
+    <map>na.xml</map>
+    <dist_min>0.1</dist_min>
+    <gromacs>
+      <equi_time>0</equi_time>
+      <table_bins>0.01</table_bins>
+      <table_end>2.12</table_end>
+      <pot_max>5000</pot_max>
+      <mdrun>
+        <opts>-pin on -pinoffset 2</opts>
+      </mdrun>
+    </gromacs>
+    <convergence_check>
+      <type>default</type>
+      <limit>0.001</limit>
+    </convergence_check>
+    <ibi>
+      <!-- ensure 'octave' is in PATH -->
+      <solver>octave</solver>
+      <default_reg>2000</default_reg>
+    </ibi>
+    
+    <iterations_max>50</iterations_max>
+    <scriptpath>/home/somesh/multivalent/2d-gel/PSS-protocol-1site/IMC/PBS/Na/N_20_Dang:/home/somesh/votca-2019.1-install/share/votca/scripts/inverse</scriptpath>
+    <log_file>inverse.log</log_file>
+    <restart_file>restart_points.log</restart_file>
+  </inverse>
+
+</cg>
+

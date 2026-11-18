@@ -1,0 +1,16 @@
+; Topology file for polyacrylic acid (PAA)
+
+#include "amber03_dang.ff/forcefield.itp"
+#include "amber03_dang.ff/spce.itp"
+#include "PAA30_patched.itp"
+#include "amber03_dang.ff/ions.itp"
+
+
+[ system ]
+Polyacrylic Acid in water
+
+
+[ molecules ]
+PAA     1  ; Number of molecules in the system
+NA               30
+SOL              7380

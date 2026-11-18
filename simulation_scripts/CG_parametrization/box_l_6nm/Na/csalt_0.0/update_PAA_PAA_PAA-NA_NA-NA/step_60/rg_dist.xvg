@@ -1,0 +1,46 @@
+# This file was created Thu Oct 15 04:37:28 2026
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2024.3 (-:
+# 
+# Executable:   /tikhome/skurahatti/Downloads/gmx_install_gpu/bin/gmx
+# Data prefix:  /tikhome/skurahatti/Downloads/gmx_install_gpu
+# Working dir:  /work/skurahatti/multivalent/2d-gel/PAA_dang/parametrization/box_l_6nm/Try_update_3/step_60
+# Command line:
+#   gmx analyze -f Rg_PAA.xvg -dist rg_dist.xvg -bw 0.035
+# gmx analyze is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Distribution"
+@    xaxis  label ""
+@    yaxis  label ""
+@TYPE xy
+ 0.56  0
+ 0.595  0.000571429
+ 0.63  0.00457143
+ 0.665  0.0914286
+ 0.7  0.492
+ 0.735  1.08629
+ 0.77  1.616
+ 0.805  1.89029
+ 0.84  1.96743
+ 0.875  2.02457
+ 0.91  2.056
+ 0.945  2.15771
+ 0.98  2.16571
+ 1.015  2.18114
+ 1.05  2.088
+ 1.085  1.97143
+ 1.12  1.76914
+ 1.155  1.52171
+ 1.19  1.21886
+ 1.225  0.957143
+ 1.26  0.605143
+ 1.295  0.345714
+ 1.33  0.221143
+ 1.365  0.0834286
+ 1.4  0.0394286
+ 1.435  0.0137143
+ 1.47  0.00285714
+ 1.505  0
+ 1.54  0
