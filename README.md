@@ -1,4 +1,4 @@
-# Data and scripts for "Capturing Ion-Specific Effects in Polyacrylic Acid via an Implicit-Solvent, Explicit-Electrostatics Coarse-Grained Model"
+# Data and scripts for "Bottom-Up Coarse-Graining for Ion-Specificity in Polyelectrolyte Solutions"
 
 Somesh Kurahatti, Svyatoslav Kondrat, David Beyer, Christian Holm
 Institute for Computational Physics, University of Stuttgart
